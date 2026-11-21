@@ -1,8 +1,14 @@
-/* Leonida Platinum v3.2 — offline tracker for the 55 GTA 6 trophies.
+/* Leonida Platinum v3.3 — offline tracker for the 55 GTA 6 trophies.
    Loads its own data file only (data/trophies.json). No network, no cookies.
    Audit strip is computed from the data at load, never hardcoded.
-   v3.2: 30 sources / 27 sites, 38 disputes with verdicts, 32-row 100% ledger
-   (1,606 items), 463 cited claims — all computed by computeAudit() below. */
+   v3.3: 32 sources / 29 sites, 58 disputes with verdicts, 32-row 100% ledger
+   (1,606 items), 30 roadmap steps, 20 cited FAQs and a 13-term glossary —
+   all computed by computeAudit() below.
+   New in v3.3: two full-list sources read 21 Nov 2026 (all.gg [31] and Of Zen
+   and Computing [32]); disputes D39–D58 from the new lists' disagreements
+   (DWNFALL vs DWNFLL, Top Fun vs Top Run, Gamerscore splits, cheats, story
+   hours, meditation and drone-race counts); a cited FAQ tab and glossary;
+   10 extra roadmap steps citing the new sources; blocked list now 7 sites. */
 (function () {
   'use strict';
 
@@ -12,7 +18,7 @@
   var GRADE_ORDER = { platinum: 0, gold: 1, silver: 2, bronze: 3 };
   var DEMO_EARNED = [2, 3, 8, 15, 16, 20, 21, 33, 35, 42, 46, 53, 55];
   var DEMO_COUNTS = { 15: 250, 17: 12, 18: 5, 28: 6, 31: 41, 32: 23, 35: 100 };
-  var TABS = ['tracker', 'roadmap', 'missables', 'disputes', 'ledger', 'sources'];
+  var TABS = ['tracker', 'roadmap', 'missables', 'disputes', 'ledger', 'sources', 'faq'];
 
   var guideData = null;
   var trophies = [];
@@ -24,6 +30,8 @@
   var roadmap = [];
   var blocked = [];
   var chapters = [];
+  var faq = [];
+  var glossary = [];
   var audit = null;
   var state = { earned: {}, counts: {}, spoiler: true, revealed: {}, filter: 'all', grade: 'all', sort: 'roadmap', query: '', tab: 'tracker', selected: 28 };
 
@@ -100,16 +108,18 @@
     trophies.forEach(function (t) { risk[t.risk] = (risk[t.risk] || 0) + 1; });
     // Total cited claims: every checkable fact the guide asserts — guide steps,
     // trophy guides, both sides of every dispute, roadmap steps, ledger rows,
-    // trophy-vs-100% rows, and per-trophy risk windows. Computed, never typed.
+    // trophy-vs-100% rows, per-trophy risk windows, FAQ answers and glossary
+    // definitions. Computed, never typed.
     var roadmapSteps = 0;
     roadmap.forEach(function (st) { roadmapSteps += (st.steps || []).length; });
     var windows = trophies.filter(function (t) { return t.risk === 'at-risk' || t.risk === 'missable'; }).length;
-    var claims = totalSteps + trophies.length + disputes.length * 2 + roadmapSteps + ledger.length + hundoCompare.length + windows;
+    var claims = totalSteps + trophies.length + disputes.length * 2 + roadmapSteps + ledger.length + hundoCompare.length + windows + faq.length + glossary.length;
     audit = {
       official: official, total: trophies.length, guidesCited: guidesCited,
       steps: totalSteps, steps2: steps2, steps1: steps1, claims: claims,
       pages: sources.length, sites: Object.keys(hosts).length, noUrl: noUrl,
       disputes: disputes.length, disputesNoVerdict: disputesNoVerdict,
+      faq: faq.length, glossary: glossary.length, roadmapSteps: roadmapSteps,
       missable: risk.missable || 0, atRisk: risk['at-risk'] || 0, unconfirmed: risk.unconfirmed || 0,
       ledgerTotal: ledger.reduce(function (a, r) { return a + (r.need || 0); }, 0),
       checks: {
@@ -130,9 +140,10 @@
       { html: '<b>28</b> PSN-hidden', bad: false },
       { html: '<b>' + a.guidesCited + '/' + a.total + '</b> guides cited', bad: a.guidesCited !== a.total },
       { html: '<b>' + a.steps2 + '/' + a.steps + '</b> steps backed by 2+ sources' + (a.steps1 ? ' · ' + a.steps1 + ' single source' : ''), bad: !a.checks.steps2ok },
-      { html: '<b>' + a.claims.toLocaleString() + '</b> cited claims — steps, guides, disputes, roadmap, ledger, windows', bad: false, cls: ' claims' },
+      { html: '<b>' + a.claims.toLocaleString() + '</b> cited claims — steps, guides, disputes, roadmap, ledger, windows, FAQ, glossary', bad: false, cls: ' claims' },
       { html: '<b>' + a.pages + '</b> pages · <b>' + a.sites + '</b> sites', bad: a.pages < 20 },
       { html: '<b>' + a.disputes + '</b> disputes, all with verdicts', bad: !a.checks.verdictsOk },
+      { html: '<b>' + a.faq + '</b> cited FAQs · <b>' + a.glossary + '</b> glossary terms · <b>' + a.roadmapSteps + '</b> roadmap steps', bad: a.faq === 0 },
       { html: '<b>' + a.missable + '</b> possibly missable · <b>' + a.atRisk + '</b> at risk · <b>' + a.unconfirmed + '</b> unconfirmed', bad: false },
       { html: '<b>' + a.ledgerTotal.toLocaleString() + '</b> items in the 100% ledger', bad: false },
       { html: '<b>0</b> online trophies — all single-player', bad: false }
@@ -409,7 +420,7 @@
     trophies.forEach(function (t) { t.sources.forEach(function (n) { counts[n] = (counts[n] || 0) + 1; }); });
     var html = sources.map(function (s) {
       var name = s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' : esc(s.name);
-      return '<li><b>[' + s.n + ']</b> ' + name + (s.n >= 26 ? ' <span class="src-new">new in v3.2</span>' : '') + '<span class="src-claims">' + esc(s.note) + ' · cited by ' +
+      return '<li><b>[' + s.n + ']</b> ' + name + sourceNewTag(s.n) + '<span class="src-claims">' + esc(s.note) + ' · cited by ' +
         (counts[s.n] || 0) + ' of 55 guides · read 21 Nov 2026</span></li>';
     }).join('');
     document.getElementById('sourceList').innerHTML = html;
@@ -473,6 +484,30 @@
     document.getElementById('disputeList').innerHTML = html;
   }
 
+  // v3.3 — FAQ tab: every answer is cited to the numbered sources, same as a
+  // guide step. Questions are the ones players actually ask first: how long,
+  // what is missable, cheats, online, chapters, 100% vs platinum, Gamerscore.
+  function renderFaq() {
+    var html = faq.map(function (item, i) {
+      return '<div class="faq-card"><h3><span class="faq-num">Q' + (i + 1) + '</span> ' + esc(item.q) + '</h3>' +
+        '<p>' + citeLinks(item.a) + ' ' + citeSpans(item.s) + '</p></div>';
+    }).join('');
+    document.getElementById('faqList').innerHTML = html;
+    var ghtml = glossary.map(function (g) {
+      return '<div class="glossary-card"><h3>' + esc(g.term) + '</h3>' +
+        '<p>' + citeLinks(g.def) + ' ' + citeSpans(g.s) + '</p></div>';
+    }).join('');
+    document.getElementById('glossaryList').innerHTML = ghtml;
+  }
+
+  // v3.3 — source "new" tags: 26–30 arrived in v3.2, 31–32 in v3.3. Kept as a
+  // small helper so the tracker rail and the source matrix agree.
+  function sourceNewTag(n) {
+    if (n >= 31) return ' <span class="src-new">new in v3.3</span>';
+    if (n >= 26) return ' <span class="src-new">new in v3.2</span>';
+    return '';
+  }
+
   function renderLedger() {
     var total = ledger.reduce(function (a, r) { return a + (r.need || 0); }, 0);
     var html = '<h3>The checklist — ' + ledger.length + ' rows</h3><table><thead><tr><th>Item</th><th class="num">Need</th><th class="num">Of</th><th>Trophy target</th><th>Notes</th><th>Sources</th></tr></thead><tbody>';
@@ -509,7 +544,7 @@
     var html = sources.map(function (s) {
       var citing = trophies.filter(function (t) { return t.sources.indexOf(s.n) !== -1; });
       var name = s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' : esc(s.name);
-      return '<div class="source-card"><h3>[' + s.n + '] ' + name + (s.n >= 26 ? ' <span class="src-new">new in v3.2</span>' : '') + '</h3><p>' + esc(s.note) + '</p>' +
+      return '<div class="source-card"><h3>[' + s.n + '] ' + name + sourceNewTag(s.n) + '</h3><p>' + esc(s.note) + '</p>' +
         '<p>Cited by <b>' + (counts[s.n] || 0) + ' of 55</b> guides · read 21 Nov 2026</p>' +
         '<p class="trophy-refs">Guides citing it: ' + citing.map(function (t) { return esc(t.name); }).join(', ') + '</p></div>';
     }).join('');
@@ -531,6 +566,7 @@
     renderDisputes();
     renderLedger();
     renderSourceMatrix();
+    renderFaq();
   }
 
   function updateHash() {
@@ -568,7 +604,7 @@
 
   function exportProgress() {
     var blob = new Blob([JSON.stringify({
-      app: 'leonida-platinum', version: 3.2, earned: state.earned, counts: state.counts,
+      app: 'leonida-platinum', version: 3.3, earned: state.earned, counts: state.counts,
       spoiler: state.spoiler, revealed: state.revealed, exportedAt: new Date().toISOString()
     }, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
@@ -644,6 +680,8 @@
       roadmap = data.roadmap || [];
       blocked = data.blocked || [];
       chapters = data.chapters || [];
+      faq = data.faq || [];
+      glossary = data.glossary || [];
       computeAudit();
     });
   }

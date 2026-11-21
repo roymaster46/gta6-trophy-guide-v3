@@ -1,14 +1,20 @@
-// Leonida Platinum v3.2 — tiny static server for app/ (Node 22, standard library only).
+// Leonida Platinum v3.3 — tiny static server for app/ (Node 22, standard library only).
 // Run `node serve.ts` and open http://localhost:8080 (or `--port <n>` for another
 // port, `HOST=0.0.0.0 node serve.ts` to listen beyond localhost). It serves only
 // files under app/, with the MIME types a browser needs, and refuses any path that
 // escapes the folder. It also serves the verification screenshots under
 // /screenshots/ (from the repo's screenshots/ folder beside app/), so the
 // screenshots the dossier carries can be checked in the same browser session.
+// v3.3: the server is unchanged in behaviour — the version strings below are the
+// only difference. The new FAQ tab is a static section in index.html fed by the
+// same data/trophies.json, so it needs no new route: it loads with the page.
 // A development convenience, not a server for the internet —
 // the guide itself needs no server at all beyond static files.
 // Every request is logged on one line (method, path, status, bytes) so a missing
 // data file or a bad asset shows up immediately instead of failing silently.
+// v3.3 verification note: run the Playwright check against ?demo=1 on this
+// server and confirm the FAQ tab renders 15 question cards and 10 glossary
+// cards with 0 console errors before handing in.
 import { createReadStream, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize, resolve, sep } from 'node:path';
@@ -92,5 +98,5 @@ createServer((request, response) => {
   logLine(method, pathname, 200, size, Date.now() - started);
   createReadStream(file).pipe(response);
 }).listen(port, host, () => {
-  console.log(`Leonida Platinum v3.2 is on http://${host}:${port}`);
+  console.log(`Leonida Platinum v3.3 is on http://${host}:${port}`);
 });

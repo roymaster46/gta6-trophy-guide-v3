@@ -184,6 +184,18 @@
    "name": "Leonida Hub — GTA VI reportedly has 55 PS5 trophies, Platinum included",
    "note": "27 visible trophies listed in full (28/55 names verified by curl), 28 hidden counted but not named; confirms TrueAchievements / TrueTrophies sync on 19 Nov 2026",
    "url": "https://leonidahub.org/en/news/gta-vi-reportedly-has-55-ps5-trophies-platinum-included-as-xbox-and-playstation-data-line-up"
+  },
+  {
+   "n": 31,
+   "name": "all.gg — Every GTA 6 PSN Trophy",
+   "note": "Full 55 taken from PSN, published 19 Nov 2026, read in full 21 Nov 2026: all 55 names and objectives verified against our list; spells the Headliners trophy DWNFLL and the drone-race trophy as Top Run, both against the other lists — see disputes D39 and D40",
+   "url": "https://all.gg/news/every-gta-6-psn-trophy/"
+  },
+  {
+   "n": 32,
+   "name": "Of Zen and Computing — GTA 6 Trophy List (November 2026) All 55 Trophies",
+   "note": "Full 55 with a how-to-unlock line per trophy, read in full 21 Nov 2026: Gamerscore table (Gold 100G each, Silver 50G, Bronze 10G), story 50–60 hours, platinum ~200 hours, animal study reportedly 170 species, cheats historically lock Rockstar achievements, missables unconfirmed — see disputes D41, D42, D43, D46, D47 and D49",
+   "url": "https://www.ofzenandcomputing.com/gta-6-trophy-list-trophies-achievements/"
   }
  ],
  "trophies": [
@@ -5020,6 +5032,399 @@
    "verdictSources": [
     20
    ]
+  },
+  {
+   "id": "D39",
+   "trophy": null,
+   "topic": "Is the Headliners trophy DWNFALL or DWNFLL?",
+   "a": "KeenGamer and Of Zen and Computing spell it DWNFALL.",
+   "aSources": [
+    2,
+    32
+   ],
+   "b": "all.gg, quoting the PSN list directly, spells it DWNFLL — no A.",
+   "bSources": [
+    31
+   ],
+   "verdict": "Our call: follow the PSN spelling DWNFLL until the game itself shows otherwise; the trophy is the same one either way — complete Headliners.",
+   "verdictSources": [
+    31,
+    2
+   ]
+  },
+  {
+   "id": "D40",
+   "trophy": null,
+   "topic": "Top Fun or Top Run drone races?",
+   "a": "KeenGamer, GamesFuze, GAMES.GG and Of Zen and Computing all call the drone races Top Fun.",
+   "aSources": [
+    2,
+    11,
+    12,
+    32
+   ],
+   "b": "all.gg, quoting the PSN list, writes “Win a Top Run Drone Race at every location”.",
+   "bSources": [
+    31
+   ],
+   "verdict": "Our call: the activity is the same — win one drone race at every venue. Top Fun is the name the guides use; Top Run looks like the PSN wording for the same races.",
+   "verdictSources": [
+    31,
+    2
+   ]
+  },
+  {
+   "id": "D41",
+   "trophy": null,
+   "topic": "How much Gamerscore is a Silver worth — 40G or 50G?",
+   "a": "GamesFuze puts every Silver at 40G.",
+   "aSources": [
+    11
+   ],
+   "b": "Of Zen and Computing puts every Silver at 50G, and GameMapa's full list agrees on the 1,000G total.",
+   "bSources": [
+    32,
+    26
+   ],
+   "verdict": "Our call: 50G per Silver. Six Silvers at 50G plus two Golds at 100G plus 46 Bronzes at 10G is exactly 1,000G; at 40G the Silvers would leave the total 60G short.",
+   "verdictSources": [
+    32,
+    26
+   ]
+  },
+  {
+   "id": "D42",
+   "trophy": null,
+   "topic": "How much Gamerscore is the final-story Gold worth — 50G or 100G?",
+   "a": "GamesFuze gives the final-story Gold 50G and the 100% Gold 100G.",
+   "aSources": [
+    11
+   ],
+   "b": "Of Zen and Computing gives both Golds 100G each.",
+   "bSources": [
+    32
+   ],
+   "verdict": "Our call: 100G each. Two Golds at 100G is the only split that reaches 1,000G with Silvers at 50G and Bronzes at 10G; a 50G Gold would break the total.",
+   "verdictSources": [
+    32,
+    11
+   ]
+  },
+  {
+   "id": "D43",
+   "trophy": null,
+   "topic": "Are all Bronzes worth 10G, or do some pay 5G and 15G?",
+   "a": "Of Zen and Computing gives every Bronze a flat 10G.",
+   "aSources": [
+    32
+   ],
+   "b": "GamesFuze and GameMapa give mixed values — 5G for the opening mission, 15G and 20G for others.",
+   "bSources": [
+    11,
+    26
+   ],
+   "verdict": "Our call: the flat 10G table is the cleaner read (46 × 10G = 460G, which the 1,000G total needs), but treat per-trophy Gamerscore as unsettled — the PSN trophy grades, not the Xbox points, are what this guide tracks.",
+   "verdictSources": [
+    32,
+    26
+   ]
+  },
+  {
+   "id": "D44",
+   "trophy": null,
+   "topic": "Do cheats disable trophies in GTA 6?",
+   "a": "Mobalytics warns plainly: using cheats will disable trophies, so keep them off.",
+   "aSources": [
+    10
+   ],
+   "b": "Of Zen and Computing says only that cheats have historically locked achievements in Rockstar games and GTA 6 is expected to follow the same pattern — expected, not confirmed in-game.",
+   "bSources": [
+    32
+   ],
+   "verdict": "Our call: keep cheats off your platinum save entirely. The downside of being wrong is a ruined run; the upside of testing it is nothing.",
+   "verdictSources": [
+    10,
+    32
+   ]
+  },
+  {
+   "id": "D45",
+   "trophy": null,
+   "topic": "How long is the story alone — 50 hours or 60–80?",
+   "a": "Of Zen and Computing puts the main story at 50–60 hours.",
+   "aSources": [
+    32
+   ],
+   "b": "KeenGamer budgets 60–80 hours for the story block, and the Insider Gaming leak reported ~50 hours for the main path.",
+   "bSources": [
+    2,
+    24
+   ],
+   "verdict": "Our call: plan 60 hours for the story and 200 for the platinum. The 50-hour figure is the leak's main-path number; side missions and optional content push real playtime up.",
+   "verdictSources": [
+    32,
+    2
+   ]
+  },
+  {
+   "id": "D46",
+   "trophy": null,
+   "topic": "Can you miss any trophy at all?",
+   "a": "PowerPyx, KeenGamer, GTA-Base and eGamers all flag Positive Mental Attitude as the one possibly missable trophy.",
+   "aSources": [
+    1,
+    2,
+    5,
+    3
+   ],
+   "b": "Of Zen and Computing reports community discussion suggesting you may not be able to miss any trophy, and calls that unconfirmed.",
+   "bSources": [
+    32
+   ],
+   "verdict": "Our call: do the Chapter 1 balcony meditation anyway. It costs one morning in-game; skipping it on an unconfirmed rumour risks the whole run.",
+   "verdictSources": [
+    1,
+    32
+   ]
+  },
+  {
+   "id": "D47",
+   "trophy": null,
+   "topic": "How many meditation spots — 18, or just “every spot”?",
+   "a": "KeenGamer counts 18 required meditation spots across Leonida.",
+   "aSources": [
+    2
+   ],
+   "b": "PowerPyx, all.gg and Of Zen and Computing say only “every spot” / “every meditation spot”, with no number.",
+   "bSources": [
+    1,
+    31,
+    32
+   ],
+   "verdict": "Our call: use 18 as the working count and the in-game checklist as the truth. If the checklist shows spots left after 18, keep going — the count is a guide, the checklist is the game.",
+   "verdictSources": [
+    2,
+    1
+   ]
+  },
+  {
+   "id": "D48",
+   "trophy": null,
+   "topic": "How many Top Fun drone-race locations — 14, or “every location”?",
+   "a": "KeenGamer counts 14 Top Fun drone-race locations.",
+   "aSources": [
+    2
+   ],
+   "b": "PowerPyx, all.gg and Of Zen and Computing say only “every location” / “every venue”, with no number.",
+   "bSources": [
+    1,
+    31,
+    32
+   ],
+   "verdict": "Our call: use 14 as the working count and win one race at each venue you find. The trophy pops on the last venue, so the count only matters for planning.",
+   "verdictSources": [
+    2,
+    1
+   ]
+  },
+  {
+   "id": "D49",
+   "trophy": null,
+   "topic": "How many card sets count toward 100% — 3, or 15 of 18?",
+   "a": "The trophy needs 3 complete Collectible Card sets.",
+   "aSources": [
+    1,
+    31,
+    32
+   ],
+   "b": "Push Square's 100% checklist needs 15 of the 18 card sets for full completion.",
+   "bSources": [
+    7,
+    21
+   ],
+   "verdict": "Our call: both are right — 3 sets pop the trophy, 15 of 18 feed the 100% checklist. Do not stop at 3 if you are chasing A Long Road.",
+   "verdictSources": [
+    1,
+    21
+   ]
+  },
+  {
+   "id": "D50",
+   "trophy": null,
+   "topic": "Earn Cash, Not Kudos — any 20 races, or 20 different ones?",
+   "a": "all.gg and Of Zen and Computing both say “Win 20 different races” — distinct events, not repeats.",
+   "aSources": [
+    31,
+    32
+   ],
+   "b": "Shorter lists write only “Win 20 races”, which reads as if repeating one race 20 times would count.",
+   "bSources": [
+    11
+   ],
+   "verdict": "Our call: win 20 different races. “Different” is in the trophy's own wording as reported by two full lists; do not grind one race.",
+   "verdictSources": [
+    31,
+    32
+   ]
+  },
+  {
+   "id": "D51",
+   "trophy": null,
+   "topic": "Is the animal study 170 species?",
+   "a": "Of Zen and Computing reports the animal study grind covers 170 species, echoing Red Dead Redemption 2.",
+   "aSources": [
+    32
+   ],
+   "b": "PowerPyx's 100% checklist counts 100 of 255 animals for the checklist, a different number for a different task.",
+   "bSources": [
+    1,
+    20
+   ],
+   "verdict": "Our call: do not confuse the two numbers. 170 species is the reported study total; 100 of 255 animals is the checklist row. Follow the checklist row for A Long Road.",
+   "verdictSources": [
+    32,
+    20
+   ]
+  },
+  {
+   "id": "D52",
+   "trophy": null,
+   "topic": "Does the final story trophy pop for Chapter 5 or for the final mission?",
+   "a": "Of Zen and Computing lists it as “Complete Chapter 5”.",
+   "aSources": [
+    32
+   ],
+   "b": "KeenGamer, Push Square and all.gg list it as “Complete the final mission” / “Finish the final story mission”.",
+   "bSources": [
+    2,
+    7,
+    31
+   ],
+   "verdict": "Our call: same moment either way — finishing the final mission ends Chapter 5. Play to the credits and it pops.",
+   "verdictSources": [
+    32,
+    2
+   ]
+  },
+  {
+   "id": "D53",
+   "trophy": null,
+   "topic": "How many Shooting Range challenges are there — 42, or just “all of them”?",
+   "a": "KeenGamer and GamesFuze both count 42 Shooting Range Gold Medals.",
+   "aSources": [
+    2,
+    11
+   ],
+   "b": "PowerPyx and all.gg say only “all Shooting Range challenges” / “a gold medal in all Shooting Range challenges”, with no number.",
+   "bSources": [
+    1,
+    31
+   ],
+   "verdict": "Our call: use 42 as the working count. Two full lists agree on it, and the trophy pops on the last gold either way.",
+   "verdictSources": [
+    2,
+    11
+   ]
+  },
+  {
+   "id": "D54",
+   "trophy": null,
+   "topic": "How many activity types does Master of None need — nine, or just “each type”?",
+   "a": "KeenGamer counts nine activity types, and GameMapa also lists 9 activity types.",
+   "aSources": [
+    2,
+    26
+   ],
+   "b": "PowerPyx, all.gg and Of Zen and Computing say only “each type of activity” / “every type of activity”, with no number.",
+   "bSources": [
+    1,
+    31,
+    32
+   ],
+   "verdict": "Our call: nine. Two lists agree on the number; try one of each activity type the map offers and the trophy pops on the ninth.",
+   "verdictSources": [
+    2,
+    26
+   ]
+  },
+  {
+   "id": "D55",
+   "trophy": null,
+   "topic": "How many garage properties are there — eight, or just “all of them”?",
+   "a": "KeenGamer counts eight purchasable garage properties for Little Boxes.",
+   "aSources": [
+    2
+   ],
+   "b": "all.gg and Of Zen and Computing say only “all garage properties” / “every garage property on the map”, with no number.",
+   "bSources": [
+    31,
+    32
+   ],
+   "verdict": "Our call: use eight as the working count and buy every garage the map offers. The trophy pops on the last purchase either way.",
+   "verdictSources": [
+    2,
+    31
+   ]
+  },
+  {
+   "id": "D56",
+   "trophy": null,
+   "topic": "One Last Thing: 50 challenges — or 70 of 80?",
+   "a": "The trophy needs 50 completed challenges.",
+   "aSources": [
+    31,
+    32
+   ],
+   "b": "PowerPyx's 100% checklist needs any 70 of 80 challenges.",
+   "bSources": [
+    1,
+    20
+   ],
+   "verdict": "Our call: both are right — 50 pops the trophy, 70 of 80 feeds the checklist. Do not stop at 50 if you are chasing A Long Road.",
+   "verdictSources": [
+    31,
+    20
+   ]
+  },
+  {
+   "id": "D57",
+   "trophy": null,
+   "topic": "Whip It Good: 100 vehicles — or 200 scanned?",
+   "a": "The trophy needs 100 vehicles discovered.",
+   "aSources": [
+    31,
+    32
+   ],
+   "b": "PowerPyx's 100% checklist needs 200 of 277 base-model vehicles scanned.",
+   "bSources": [
+    20,
+    1
+   ],
+   "verdict": "Our call: both are right — 100 discovered pops the trophy, 200 of 277 scanned feeds the checklist. WAiNK scanning counts toward both.",
+   "verdictSources": [
+    31,
+    20
+   ]
+  },
+  {
+   "id": "D58",
+   "trophy": null,
+   "topic": "You WAiNKer!: 100 locations — or 200 vehicles?",
+   "a": "The trophy needs WAiNK It at 100 locations.",
+   "aSources": [
+    31,
+    32
+   ],
+   "b": "The checklist's vehicle row needs 200 of 277 vehicles scanned, which also uses WAiNK.",
+   "bSources": [
+    20,
+    1
+   ],
+   "verdict": "Our call: different counters that share one tool. 100 WAiNK locations pops the trophy; keep scanning past it and the 200-vehicle checklist row fills too.",
+   "verdictSources": [
+    31,
+    20
+   ]
   }
  ],
  "ledger": [
@@ -5616,6 +6021,20 @@
      "s": [
       1
      ]
+    },
+    {
+     "t": "Cross-check every story trophy name against the PSN list as reported by all.gg — it spells the Headliners trophy DWNFLL, not DWNFALL (see dispute D39).",
+     "s": [
+      31,
+      2
+     ]
+    },
+    {
+     "t": "Budget the story at 50–60 hours and the platinum at about 200 hours; the gap is the side content, not the story.",
+     "s": [
+      32,
+      1
+     ]
     }
    ],
    "trophies": [
@@ -5672,6 +6091,20 @@
       1,
       5
      ]
+    },
+    {
+     "t": "Finish Chapter 5 by completing the final mission — the Gold pops at the credits either way (see dispute D52).",
+     "s": [
+      32,
+      2
+     ]
+    },
+    {
+     "t": "Save before the final mission — there is no mission replay, so the ending cannot be redone on this save.",
+     "s": [
+      1,
+      12
+     ]
     }
    ],
    "trophies": [
@@ -5721,6 +6154,20 @@
      "s": [
       1,
       20
+     ]
+    },
+    {
+     "t": "Win 20 different races for Earn Cash, Not Kudos — repeats of one race do not count (see dispute D50).",
+     "s": [
+      31,
+      32
+     ]
+    },
+    {
+     "t": "Use the WAiNK app while exploring: scanning feeds both the 100-location WAiNK count and the 200-vehicle discovery count.",
+     "s": [
+      32,
+      2
      ]
     }
    ],
@@ -5774,9 +6221,23 @@
      ]
     },
     {
-     "t": "Leave the 7 unconfirmed trophies for last — check the guide for the best single-source lead on each.",
+     "t": "Leave the 5 unconfirmed trophies for last — check the guide for the best single-source lead on each.",
      "s": [
       2,
+      3
+     ]
+    },
+    {
+     "t": "Finish eight stranger strands — Andy, Kenton, Billy, Randy and Tyrone each end with a final mission, plus Bret's hunt.",
+     "s": [
+      31,
+      32
+     ]
+    },
+    {
+     "t": "Check the FAQ tab before hunting the 5 unconfirmed trophies — each has its best lead and its warning there.",
+     "s": [
+      23,
       3
      ]
     }
@@ -5845,6 +6306,20 @@
       25,
       1
      ]
+    },
+    {
+     "t": "Launder Marked Bills through contacts until $250,000 is done, then spend $100,000 across shops — the two money trophies are separate grinds.",
+     "s": [
+      31,
+      32
+     ]
+    },
+    {
+     "t": "On Xbox the platinum is a Mythic Achievement worth 0G; the 1,000G total comes from the other 54 trophies.",
+     "s": [
+      32,
+      26
+     ]
     }
    ],
    "trophies": [
@@ -5876,6 +6351,14 @@
   {
    "site": "GamesRadar (gamesradar.com)",
    "reason": "No verifiable live trophy-list URL found via search on 21 Nov 2026 — its list is cited second-hand via GameMapa (Gamerscore values). Not cited directly."
+  },
+  {
+   "site": "PSNProfiles (psnprofiles.com)",
+   "reason": "No verifiable live GTA 6 trophy-list URL returned by search on 21 Nov 2026 — cited only second-hand via Exophase / PlanetGTA6 cross-checks. Not cited directly."
+  },
+  {
+   "site": "TrueTrophies (truetrophies.com)",
+   "reason": "No verifiable live GTA 6 trophy-list URL returned by search on 21 Nov 2026 — cited only second-hand via Leonida Hub (sync on 19 Nov 2026). Not cited directly."
   }
  ],
  "chapters": [
@@ -5908,6 +6391,304 @@
    "n": 6,
    "name": "Free-roam",
    "gates": "100% checklist unlocks; everything except the Chapter 1 meditation stays available."
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many trophies does GTA 6 have?",
+   "a": "55 on PlayStation 5: 1 Platinum, 2 Gold, 6 Silver and 46 Bronze. 28 of them are hidden until you unlock them, and the same 55 appear as Xbox achievements worth 1,000 Gamerscore.",
+   "s": [
+    1,
+    2,
+    31,
+    32
+   ]
+  },
+  {
+   "q": "How long does the platinum take?",
+   "a": "About 200 hours is the consensus — PowerPyx, KeenGamer and Of Zen and Computing all land there. Push Square says 300 hours or more. Plan 200, budget 300; A Long Road (100%) is the longest grind either way.",
+   "s": [
+    1,
+    2,
+    7,
+    32
+   ]
+  },
+  {
+   "q": "Can I miss any trophy?",
+   "a": "Only one is flagged possibly missable: Positive Mental Attitude, the Chapter 1 balcony meditation with Lucia after Down to Earth. Do it before leaving Chapter 1. Community discussion reported by Of Zen and Computing suggests you may not be able to miss any trophy at all, but that is unconfirmed — do the meditation anyway.",
+   "s": [
+    1,
+    2,
+    5,
+    32
+   ]
+  },
+  {
+   "q": "Do I need to play online?",
+   "a": "No. All 55 trophies are offline single-player, and one playthrough is enough. There are no online trophies and no difficulty setting involved.",
+   "s": [
+    1,
+    2,
+    31
+   ]
+  },
+  {
+   "q": "Do cheat codes disable trophies?",
+   "a": "Treat it as yes. Mobalytics warns plainly that using cheats will disable trophies, and Of Zen and Computing notes cheats have historically locked achievements in Rockstar games. Keep cheats off your platinum save.",
+   "s": [
+    10,
+    32,
+    25
+   ]
+  },
+  {
+   "q": "How many story chapters are there?",
+   "a": "Five chapters. Chapter trophies run from Paradise Lost (Chapter 1) to You Gotta Know When to Get Off (Chapter 5 / the final mission), and the 100% checklist unlocks once the story is finished.",
+   "s": [
+    1,
+    2,
+    31,
+    32
+   ]
+  },
+  {
+   "q": "What is the difference between A Long Road and the platinum?",
+   "a": "A Long Road is the Gold trophy for reaching 100% completion on the in-game checklist. The platinum, Vice Got a Price!, pops only when all other 54 trophies are earned — so A Long Road is usually the last Gold before the platinum, not the platinum itself.",
+   "s": [
+    1,
+    20,
+    21
+   ]
+  },
+  {
+   "q": "How much Gamerscore is the list worth on Xbox?",
+   "a": "1,000 Gamerscore in total: two Golds at 100G, six Silvers at 50G and 46 Bronzes at 10G. The Platinum is replaced by a Mythic Achievement worth 0G. Some lists give different per-trophy values — see disputes D41, D42 and D43.",
+   "s": [
+    26,
+    28,
+    32
+   ]
+  },
+  {
+   "q": "Which trophy is the hardest?",
+   "a": "A Long Road (100% completion). PowerPyx, KeenGamer and eGamers all rank it the hardest, ahead of The Shootist (42 Shooting Range gold medals) and the 250-stunt Cunning Stunts grind.",
+   "s": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "q": "How many meditation spots are there?",
+   "a": "KeenGamer counts 18 required meditation spots across Leonida, starting with the Chapter 1 balcony meditation. Other lists say only “every spot” with no number — use 18 as the working count and the in-game checklist as the truth.",
+   "s": [
+    2,
+    1,
+    31
+   ]
+  },
+  {
+   "q": "How many Top Fun drone-race locations are there?",
+   "a": "KeenGamer counts 14 locations. Win one drone race at every venue for the Top Fun trophy. Other lists say only “every location” — the trophy pops on the last venue either way.",
+   "s": [
+    2,
+    1,
+    32
+   ]
+  },
+  {
+   "q": "What is the UFO trophy, The Truth Is Out There?",
+   "a": "A hidden Bronze whose unlock method is still unconfirmed. GameRant reports a UFO location tied to it, and the guide's UFO method is the best current lead — but it is labelled unconfirmed here, not presented as certain.",
+   "s": [
+    23,
+    3,
+    31
+   ]
+  },
+  {
+   "q": "What are Marked Bills, and what is Dime on the Dollar?",
+   "a": "Marked Bills are cash you launder through your contacts. Dime on the Dollar pops once you have laundered a cumulative $250,000 of them. It is separate from Treat Yo Self, which is $100,000 spent across shops.",
+   "s": [
+    1,
+    31,
+    32
+   ]
+  },
+  {
+   "q": "How should I save during the run?",
+   "a": "Keep a manual save at the start and end of every chapter: 15 manual slots and 1 autosave, and there is no mission replay. If a chapter-gated optional mission looks like a one-off, save before it.",
+   "s": [
+    1,
+    12,
+    32
+   ]
+  },
+  {
+   "q": "When does the 100% checklist unlock?",
+   "a": "When you finish the story. Push Square and PowerPyx both say the checklist appears after the final mission (Progress, then Stats, then 100% Completion). Everything on it can be done in free-roam afterwards — except the Chapter 1 meditation.",
+   "s": [
+    7,
+    1,
+    20
+   ]
+  },
+  {
+   "q": "How many Shooting Range challenges are there?",
+   "a": "42, according to KeenGamer and GamesFuze — earn a gold medal in all of them for The Shootist. Other lists say only “all challenges” with no number; see dispute D53.",
+   "s": [
+    2,
+    11,
+    1
+   ]
+  },
+  {
+   "q": "How many activity types does Master of None need?",
+   "a": "Nine. KeenGamer and GameMapa both count nine activity types; try one of each type the map offers. See dispute D54.",
+   "s": [
+    2,
+    26,
+    1
+   ]
+  },
+  {
+   "q": "How many garage properties are there?",
+   "a": "Eight purchasable garages, according to KeenGamer — buy all of them for Little Boxes. Other lists say only “all garage properties”; see dispute D55.",
+   "s": [
+    2,
+    31,
+    32
+   ]
+  },
+  {
+   "q": "What is the difference between 250 stunts and 300 of 397 stunts?",
+   "a": "250 stunts pops Cunning Stunts; the 100% checklist needs 300 of the 397 stunts in the game (130 stunt jumps, 202 under-the-bridge, 40 knife flights, 25 base jumps). Same activity, two different finish lines.",
+   "s": [
+    1,
+    20,
+    31
+   ]
+  },
+  {
+   "q": "Do I need to finish the stranger strands before the story ends?",
+   "a": "No. Stranger strands open during the story and their final missions can be finished in free-roam afterwards — Push Square notes you can keep exploring Leonida freely once the final mission is done, and the roadmap puts strangers in Stage 4, after the story.",
+   "s": [
+    7,
+    1,
+    31
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Marked Bills",
+   "def": "Cash earned from robberies that must be laundered through contacts. Launder $250,000 of them for Dime on the Dollar.",
+   "s": [
+    1,
+    31,
+    32
+   ]
+  },
+  {
+   "term": "WAiNK",
+   "def": "The in-game app used to scan vehicles and locations. WAiNK It at 100 locations for You WAiNKer!; scanning also feeds the 200-vehicle discovery count.",
+   "s": [
+    1,
+    2,
+    32
+   ]
+  },
+  {
+   "term": "Combat Focus",
+   "def": "The slow-aim combat mode. Take down five enemies during one use of it for Gunslinger.",
+   "s": [
+    11,
+    32
+   ]
+  },
+  {
+   "term": "Scooter Bros",
+   "def": "The in-game app for registering vehicles. Register 10 vehicles through it for On the Spot.",
+   "s": [
+    31,
+    32
+   ]
+  },
+  {
+   "term": "Top Fun",
+   "def": "The drone-race activity. Win a race at every one of its 14 locations for the Top Fun trophy. One list spells it Top Run — see dispute D40.",
+   "s": [
+    2,
+    31,
+    32
+   ]
+  },
+  {
+   "term": "Stranger strands",
+   "def": "Side-character mission chains (Andy, Kenton, Billy, Randy, Tyrone, Bret and others). Complete eight qualifying strands for Strangers & Freaks.",
+   "s": [
+    1,
+    31,
+    32
+   ]
+  },
+  {
+   "term": "100% checklist",
+   "def": "The in-game completion checklist (Progress > Stats > 100% Completion), unlocked after the story. Finishing it pops A Long Road; this guide's ledger lists all 32 of its rows.",
+   "s": [
+    7,
+    20,
+    21
+   ]
+  },
+  {
+   "term": "Mythic Achievement",
+   "def": "The Xbox replacement for the Platinum trophy. Worth 0 Gamerscore, it appears on your profile as proof of full completion while the total stays at 1,000G.",
+   "s": [
+    26,
+    32
+   ]
+  },
+  {
+   "term": "Criminal Profile",
+   "def": "The in-game record of illicit activity. GameMapa reports 500 Criminal Profile actions among the checklist-adjacent totals.",
+   "s": [
+    26
+   ]
+  },
+  {
+   "term": "Collectible Cards",
+   "def": "Card sets hidden across Leonida: 18 sets exist, 3 complete sets pop Don't Touch My Deck, and 15 of 18 feed the 100% checklist — see dispute D49.",
+   "s": [
+    7,
+    21,
+    32
+   ]
+  },
+  {
+   "term": "Down to Earth",
+   "def": "The mission after which Lucia's balcony meditation becomes available at Jason's house in the morning — the one possibly missable moment in the game.",
+   "s": [
+    1,
+    2
+   ]
+  },
+  {
+   "term": "Gone Fishing",
+   "def": "The opening mission. Completing it pops Just Like Paradise, the first story trophy.",
+   "s": [
+    2,
+    31,
+    32
+   ]
+  },
+  {
+   "term": "VCIA",
+   "def": "Vice City International Airport. Catch Me If You Can needs an unscheduled departure from here, and Hi-Jacked is the VCIA Takedown mission.",
+   "s": [
+    31,
+    32
+   ]
   }
  ]
 }

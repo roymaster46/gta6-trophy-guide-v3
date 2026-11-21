@@ -13,3 +13,9 @@ coverage/
 *.rej
 *.tmp
 verify-*.log
+# v3.3: local hand-in outputs and Playwright screenshots taken during verification
+out/
+v3-3-out/
+verify-v33*.log
+screenshots/*.png
+!screenshots/*.jpg

@@ -221,6 +221,22 @@ main { padding: 0 18px 18px; }
 .dispute-card h3 .dispute-id { color: var(--accent); }
 .dispute-card p { font-size: 13px; margin: 5px 0; }
 .dispute-card .verdict { background: #e8f3e8; border: 1px solid #a8c8a8; border-radius: 6px; padding: 8px 10px; font-size: 13px; }
+
+/* v3.3: FAQ tab and glossary — same card language as the disputes tab, so the
+   new section reads as part of the guide instead of a bolt-on. Questions get
+   the accent-coloured Q-number; glossary terms get the same card treatment
+   with the term as the heading. Both grids collapse to one column with the
+   other lists at the 1100px and 760px breakpoints below. */
+.faq-list, .glossary-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0 20px; }
+.faq-card, .glossary-card { border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; background: #fff; }
+.faq-card h3, .glossary-card h3 { font-size: 15px; margin-bottom: 6px; }
+.faq-card h3 .faq-num { color: var(--accent); }
+.faq-card p, .glossary-card p { font-size: 13px; margin: 5px 0; line-height: 1.5; }
+.faq-card p a, .glossary-card p a { color: var(--accent); }
+.faq-card .cite, .glossary-card .cite { white-space: nowrap; }
+.glossary-card h3 { color: #4a3f2d; }
+.glossary-card { background: #fdf8ec; }
+.faq-card:nth-child(odd) { background: #fff; }
 .ledger-view table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 14px; }
 .ledger-view th, .ledger-view td { border: 1px solid var(--line); padding: 6px 9px; text-align: left; }
 .ledger-view th { background: var(--panel2); font-size: 12px; text-transform: uppercase; letter-spacing: .4px; }
@@ -249,11 +265,11 @@ main { padding: 0 18px 18px; }
 @media (max-width: 1100px) {
   .columns { grid-template-columns: 300px minmax(0, 1fr); }
   .col-side { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); }
-  .roadmap-stages, .missable-list, .source-matrix, .dispute-list, .missable-chart { grid-template-columns: 1fr 1fr; }
+  .roadmap-stages, .missable-list, .source-matrix, .dispute-list, .missable-chart, .faq-list, .glossary-list { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 760px) {
   .columns { grid-template-columns: 1fr; }
   .col-side { grid-template-columns: 1fr; }
-  .roadmap-stages, .missable-list, .source-matrix, .dispute-list, .missable-chart { grid-template-columns: 1fr; }
+  .roadmap-stages, .missable-list, .source-matrix, .dispute-list, .missable-chart, .faq-list, .glossary-list { grid-template-columns: 1fr; }
   .trophy-list { max-height: 320px; }
 }
