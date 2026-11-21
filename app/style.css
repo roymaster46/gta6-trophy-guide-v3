@@ -273,3 +273,31 @@ main { padding: 0 18px 18px; }
   .roadmap-stages, .missable-list, .source-matrix, .dispute-list, .missable-chart, .faq-list, .glossary-list { grid-template-columns: 1fr; }
   .trophy-list { max-height: 320px; }
 }
+/* v3.4: Myths, Grind, patch notes and save points — same card language as
+   the dispute and FAQ cards, so the two new tabs read as part of the guide
+   rather than as an appendix. The myth number is brick-red like the dispute
+   id; the grind route number is the same accent. The tip box in the guide
+   panel is a pale gold callout, distinct from the green verdict box and the
+   red missable callout, so a reader scanning a trophy guide sees at once
+   which box is advice and which is a warning. */
+.myth-list, .grind-list, .patch-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.myth-card, .grind-card, .patch-card { border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; background: #fff; }
+.myth-card h3, .grind-card h3, .patch-card h3 { font-size: 15px; margin-bottom: 6px; }
+.myth-card h3 .myth-num, .grind-card h3 .grind-num { color: var(--accent); }
+.myth-card p, .grind-card p, .patch-card p { font-size: 13px; margin: 5px 0; line-height: 1.5; }
+.myth-card p b, .grind-card p b { color: #4a3f2d; }
+.myth-card p a, .grind-card p a, .patch-card p a { color: var(--accent); }
+.save-list table { width: 100%; border-collapse: collapse; font-size: 13px; background: #fff; }
+.save-list th, .save-list td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+.save-list th { background: var(--panel2); }
+.save-list td b { color: var(--accent); }
+.tip-box { background: #fdf3d7; border: 1px solid #d9c48a; border-radius: 6px; padding: 8px 10px; font-size: 13px; margin: 10px 0; line-height: 1.5; }
+.tip-box b { color: #6b5518; }
+.tip-box a { color: var(--accent); }
+@media (max-width: 1100px) {
+  .myth-list, .grind-list, .patch-list { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 760px) {
+  .myth-list, .grind-list, .patch-list { grid-template-columns: 1fr; }
+  .save-list { overflow-x: auto; }
+}

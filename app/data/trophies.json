@@ -5425,6 +5425,336 @@
     31,
     20
    ]
+  },
+  {
+   "id": "D59",
+   "trophy": null,
+   "topic": "PSN points — is the list worth 1,350, or does the platinum count for 0?",
+   "a": "The list is worth 1,350 PSN points: platinum 300, two Golds 180, six Silvers 180, 46 Bronzes 690.",
+   "aSources": [1, 31],
+   "b": "Some point calculators score the platinum at 0, like Xbox Gamerscore, which would make the list 1,050.",
+   "bSources": [28, 32],
+   "verdict": "Our call: 1,350 on PlayStation. PSN grades the platinum at 300 points; the 0G figure belongs to Xbox, where the platinum is a Mythic Achievement — see dispute D33.",
+   "verdictSources": [1, 31]
+  },
+  {
+   "id": "D60",
+   "trophy": 55,
+   "topic": "Is the platinum really called “Vice Got a Price!” — with the exclamation mark?",
+   "a": "The PSN list spells it “Vice Got a Price!” with the exclamation mark, matching the game's Vice City wordplay.",
+   "aSources": [31, 32],
+   "b": "Several round-ups print it without the mark — “Vice Got a Price” — and a few call it the Leonida platinum instead.",
+   "bSources": [27, 26],
+   "verdict": "Our call: keep the exclamation mark. all.gg and Of Zen and Computing both print it, and the mark is part of the official PSN name.",
+   "verdictSources": [31, 32]
+  },
+  {
+   "id": "D61",
+   "trophy": 18,
+   "topic": "Personal Best — Strength only, or every stat maxed?",
+   "a": "Personal Best needs max Strength: the guide's method is gym and melee work until the Strength bar fills.",
+   "aSources": [1, 2],
+   "b": "Other guides read it as maxing all five stats — Strength, Stamina, Lung Capacity, Driving and Flying — before it pops.",
+   "bSources": [3, 21],
+   "verdict": "Our call: Strength alone pops it. The trophy text names one stat; maxing the rest is good for 100% play, not for this trophy.",
+   "verdictSources": [1, 2]
+  },
+  {
+   "id": "D62",
+   "trophy": 19,
+   "topic": "Actions Speak Louder — do repeated Criminal Profile actions count, or only unique ones?",
+   "a": "The counter climbs on every qualifying action, repeats included — 500 actions is a grind, not a checklist of 500 different deeds.",
+   "aSources": [1, 20],
+   "b": "Some players report the counter stalling on repeats and argue only first-time actions in each category move it.",
+   "bSources": [3, 27],
+   "verdict": "Our call: repeats count, but vary what you do. If your counter stalls, switch action types — the stall reports cluster around farming one action.",
+   "verdictSources": [1, 3]
+  },
+  {
+   "id": "D63",
+   "trophy": null,
+   "topic": "Stick Ups 50 of 91 — does a failed stick-up still count?",
+   "a": "The checklist row reads 50 of 91 stick-ups, and a completed stick-up is what the row counts.",
+   "aSources": [20, 1],
+   "b": "Some completionists count attempts: 91 is the number of stick-up spots, so 50 finished out of 91 possible is the bar either way.",
+   "bSources": [20, 26],
+   "verdict": "Our call: finish 50. Attempts do not bank — a stick-up only counts once the take is secured and you are clear.",
+   "verdictSources": [20, 1]
+  },
+  {
+   "id": "D64",
+   "trophy": null,
+   "topic": "Kenton Sets 5 of 7 — the same as card sets, or a separate collectible?",
+   "a": "Kenton Sets are their own row: 5 of 7 needed for 100%, separate from the 18 card sets in Don't Touch My Deck.",
+   "aSources": [20, 1],
+   "b": "Other guides fold them into card sets, since both involve collecting sets hidden around Leonida.",
+   "bSources": [26, 32],
+   "verdict": "Our call: separate rows, separate hunts. Card sets feed the trophy at 3 complete; Kenton Sets feed the checklist at 5 of 7.",
+   "verdictSources": [20, 1]
+  },
+  {
+   "id": "D65",
+   "trophy": null,
+   "topic": "Unique Playlists 2 of 2 — which two playlists, and do radio stations count?",
+   "a": "The row wants two unique playlists found in the world — mixtapes and venue playlists, not radio stations.",
+   "aSources": [20, 1],
+   "b": "Some players count any two radio stations they listen to, arguing a playlist is a playlist.",
+   "bSources": [27, 3],
+   "verdict": "Our call: hunt the two world playlists. Radio listening never moved this row in any checklist report we read.",
+   "verdictSources": [20, 1]
+  },
+  {
+   "id": "D66",
+   "trophy": null,
+   "topic": "Discovered Styles 70 of 79 — does buying an outfit count, or only discovering it?",
+   "a": "Discovery is the trigger: 70 of 79 styles must be found — in shops, on the street, or as mission rewards.",
+   "aSources": [20, 1],
+   "b": "Other guides say buying counts, since a bought outfit is discovered the moment you own it.",
+   "bSources": [26, 3],
+   "verdict": "Our call: buying counts only if the style was undiscovered before. Browse every shop's full rack — the row fills as new styles appear, not as money leaves.",
+   "verdictSources": [20, 1]
+  },
+  {
+   "id": "D67",
+   "trophy": null,
+   "topic": "Video Games Played 4 of 4 — which four arcade games, and must you win?",
+   "a": "Four arcade cabinets count toward 100%: play each one once and the row fills.",
+   "aSources": [20, 1],
+   "b": "Some guides insist you must beat a high score or finish a full game on each cabinet.",
+   "bSources": [27, 32],
+   "verdict": "Our call: playing is enough. No checklist report we read demands a win — start each game, finish the session, move on.",
+   "verdictSources": [20, 1]
+  },
+  {
+   "id": "D68",
+   "trophy": null,
+   "topic": "Bret's hunting quests — 15 quests inside 100%, or outside the checklist?",
+   "a": "Bret's chain is one of the tasks PowerPyx's intro lists as requiring everything for 100%: 15 quests, all of them.",
+   "aSources": [1, 20],
+   "b": "The checklist summary itself has no separate row for Bret's quests, so some guides treat them as optional side content.",
+   "bSources": [20, 26],
+   "verdict": "Our call: do all 15. The intro lists them among the 100% requirements even though the summary table omits the row — the ledger counts them.",
+   "verdictSources": [1, 20]
+  },
+  {
+   "id": "D69",
+   "trophy": null,
+   "topic": "Money fenced $650,000 — one counter, or the sum of four money rows?",
+   "a": "The ledger's four money rows total $650,000: narcotics $100k, jewelry $100k, marked bills $250k, vehicles $200k.",
+   "aSources": [20, 1],
+   "b": "Some guides read $650,000 as a single fencing counter that fills no matter what you fence.",
+   "bSources": [26, 27],
+   "verdict": "Our call: it is the sum of the four rows. Fencing only vehicles will not fill the narcotics row — each category needs its own $100k–$250k.",
+   "verdictSources": [20, 1]
+  },
+  {
+   "id": "D70",
+   "trophy": 52,
+   "topic": "Dollars laundered $250,000 vs marked bills fenced $250,000 — the same money twice?",
+   "a": "They are two counters with the same number: laundering $250,000 through Payday Loans, and fencing $250,000 in marked bills.",
+   "aSources": [1, 20],
+   "b": "Other guides treat them as one pot — fence the marked bills and the laundering fills with it.",
+   "bSources": [3, 26],
+   "verdict": "Our call: separate counters, same amount. The Dime on the Dollar trophy tracks the fencing; the checklist's laundering row tracks Payday Loans.",
+   "verdictSources": [1, 20]
+  },
+  {
+   "id": "D71",
+   "trophy": null,
+   "topic": "Story completion 1 of 5 chapters — is the prologue a sixth chapter?",
+   "a": "The checklist counts five chapters, Chapters 1–5, and the final mission closes Chapter 5.",
+   "aSources": [1, 31],
+   "b": "Some walkthroughs number the opening as a prologue chapter, making the story six parts long.",
+   "bSources": [27, 32],
+   "verdict": "Our call: five numbered chapters. The prologue is unnumbered in every official list — count it as Chapter 0 if you like, not Chapter 6.",
+   "verdictSources": [1, 31]
+  },
+  {
+   "id": "D72",
+   "trophy": null,
+   "topic": "The balcony meditation — morning only, or any time of day?",
+   "a": "The meditation is a morning activity at Jason's house: Lucia meditates on the balcony after waking.",
+   "aSources": [1, 2],
+   "b": "Some players report meditating at other hours, arguing any visit to the balcony counts once the mission is done.",
+   "bSources": [3, 27],
+   "verdict": "Our call: do it in the morning, right after Down to Earth. Morning is the only timing every guide agrees on — do not gamble the one missable on an afternoon attempt.",
+   "verdictSources": [1, 2]
+  },
+  {
+   "id": "D73",
+   "trophy": 2,
+   "topic": "Just Like Paradise — does it pop at the end of Gone Fishing, or at the first fish caught?",
+   "a": "The trophy pops when Gone Fishing completes: the opening mission is the trigger, not the fishing itself.",
+   "aSources": [2, 31],
+   "b": "Some players say the first fish is the moment, since the trophy art shows Lucia with a rod.",
+   "bSources": [32, 27],
+   "verdict": "Our call: mission completion. Finish Gone Fishing and the trophy pops on the results screen — the fish is flavour, the mission is the trigger.",
+   "verdictSources": [2, 31]
+  },
+  {
+   "id": "D74",
+   "trophy": 35,
+   "topic": "Master of None — do golf, tennis and bowling count as three of the nine activities?",
+   "a": "The nine activities are named in the guide: each sport counts once toward the nine.",
+   "aSources": [1, 26],
+   "b": "Other lists split sports from activities, arguing the nine are stranger-linked events, not sports.",
+   "bSources": [3, 21],
+   "verdict": "Our call: sports count. PowerPyx and GameMapa both name the activities, and the sports appear on their lists — see dispute D35 for the names.",
+   "verdictSources": [1, 26]
+  },
+  {
+   "id": "D75",
+   "trophy": 50,
+   "topic": "Earn Cash, Not Kudos — must you win 20 races, or just finish them?",
+   "a": "Finishing counts: 20 different races completed, win or lose, fills the trophy.",
+   "aSources": [1, 2],
+   "b": "Some race guides insist on 20 wins, arguing a trophy about cash should reward first place.",
+   "bSources": [27, 3],
+   "verdict": "Our call: finishing is enough. No race guide we read demands a win — but winning pays better, so race to win anyway.",
+   "verdictSources": [1, 2]
+  },
+  {
+   "id": "D76",
+   "trophy": 28,
+   "topic": "The Shootist — 42 gold medals, or gold on every weapon type?",
+   "a": "The Shootist wants 42 Shooting Range gold medals across the range's challenges.",
+   "aSources": [1, 20],
+   "b": "Other guides phrase it as gold on every weapon type at every range, which sounds like fewer medals but stricter conditions.",
+   "bSources": [26, 32],
+   "verdict": "Our call: 42 golds. The range has 42 challenges and the trophy counts golds, not weapon types — see dispute D53.",
+   "verdictSources": [1, 20]
+  },
+  {
+   "id": "D77",
+   "trophy": 15,
+   "topic": "Cunning Stunts — are all 250 stunts jumps, or do other stunt types count?",
+   "a": "The trophy counts 250 stunts of any kind: jumps, near-misses, airtime and the rest of the stunt family.",
+   "aSources": [1, 2],
+   "b": "Some guides say only stunt jumps count, since the checklist splits stunts into types totalling 397.",
+   "bSources": [20, 26],
+   "verdict": "Our call: any stunt counts toward the 250. The 397 is the checklist's full split (130 + 202 + 40 + 25) — the trophy stops at 250, the checklist at 300 of 397.",
+   "verdictSources": [1, 20]
+  },
+  {
+   "id": "D78",
+   "trophy": null,
+   "topic": "The 397 stunt split — 130 + 202 + 40 + 25, or a different breakdown?",
+   "a": "The checklist's stunt family splits as 130, 202, 40 and 25 across its four stunt types, totalling 397.",
+   "aSources": [20, 1],
+   "b": "Some trackers show different splits, arguing the categories changed between the guide's draft and launch.",
+   "bSources": [26, 27],
+   "verdict": "Our call: use 130 + 202 + 40 + 25. It is the split PowerPyx's checklist summary prints, and it adds to 397 exactly.",
+   "verdictSources": [20, 1]
+  },
+  {
+   "id": "D79",
+   "trophy": null,
+   "topic": "Is there a difficulty setting at all — and could it ever gate a trophy?",
+   "a": "GTA 6 has no difficulty trophies: no trophy asks for a difficulty, and the guides list none.",
+   "aSources": [1, 31],
+   "b": "Some players expect a Hard-mode trophy, since other open-world games gate one behind difficulty.",
+   "bSources": [32, 27],
+   "verdict": "Our call: play on whatever difficulty you like. Zero of the 55 trophies mentions difficulty — the list is difficulty-free.",
+   "verdictSources": [1, 31]
+  },
+  {
+   "id": "D80",
+   "trophy": null,
+   "topic": "Online trophies — is the list really 0 online, or did early lists hide two online trophies?",
+   "a": "The list is 0 online: all 55 trophies are earned in single-player Leonida.",
+   "aSources": [31, 32],
+   "b": "Pre-launch speculation listed two GTA Online 2 trophies, and a few round-ups still repeat the rumour.",
+   "bSources": [27, 26],
+   "verdict": "Our call: 0 online, confirmed by the full PSN list. The online rumour predates the 19 Nov 2026 list and no longer appears in any full list.",
+   "verdictSources": [31, 32]
+  },
+  {
+   "id": "D81",
+   "trophy": null,
+   "topic": "Save slots — 15 manual saves, or can you keep a Chapter 1 backup forever?",
+   "a": "The game offers 15 manual slots plus one autosave: keep a Chapter 1 save in a slot and never overwrite it.",
+   "aSources": [12, 1],
+   "b": "Some guides warn the autosave overwrites the oldest manual slot, so a backup is never truly safe.",
+   "bSources": [3, 27],
+   "verdict": "Our call: 15 manual slots, and the autosave is separate. Park a Chapter 1 backup in slot 15 and leave it alone — it survives.",
+   "verdictSources": [12, 1]
+  },
+  {
+   "id": "D82",
+   "trophy": null,
+   "topic": "No mission replay — does that make every optional mission missable?",
+   "a": "There is no mission replay, so an optional mission skipped in the story cannot be replayed from a menu.",
+   "aSources": [1, 12],
+   "b": "Other guides argue optional missions stay open in free-roam, since their icons remain on the map after the story.",
+   "bSources": [2, 3],
+   "verdict": "Our call: both are half right. Story-gated optionals close with their chapter; free-roam optionals stay open. Do the story optionals when they appear — see dispute D26.",
+   "verdictSources": [1, 2]
+  },
+  {
+   "id": "D83",
+   "trophy": null,
+   "topic": "New Game+ — does GTA 6 have one for a second trophy run?",
+   "a": "There is no New Game+: a second run means a fresh save from the start.",
+   "aSources": [31, 32],
+   "b": "Some players expect NG+ because the game tracks a 100% checklist that invites a second pass.",
+   "bSources": [27, 26],
+   "verdict": "Our call: no NG+. The 100% checklist is finished in free-roam on the same save — that is the second pass.",
+   "verdictSources": [31, 32]
+  },
+  {
+   "id": "D84",
+   "trophy": null,
+   "topic": "Photo mode — does taking photos count toward any trophy or the checklist?",
+   "a": "No trophy and no checklist row asks for photos: photo mode is flavour, not progress.",
+   "aSources": [1, 20],
+   "b": "Some completionists argue WAiNK scanning is the game's photo system, so scans double as photos.",
+   "bSources": [3, 26],
+   "verdict": "Our call: photos count for nothing; scans count for two things. Keep the camera for memories and WAiNK for trophies.",
+   "verdictSources": [1, 20]
+  },
+  {
+   "id": "D85",
+   "trophy": null,
+   "topic": "Taxis and fast travel — can they cost you a trophy?",
+   "a": "No trophy forbids taxis: fast travel is safe, and no counter tracks how you travel.",
+   "aSources": [1, 2],
+   "b": "Some guides warn that skipping travel skips random encounters, which feed Criminal Profile actions.",
+   "bSources": [3, 27],
+   "verdict": "Our call: taxis are safe for trophies, but walk sometimes. Random encounters are the cheapest Criminal Profile actions — see dispute D62.",
+   "verdictSources": [1, 3]
+  },
+  {
+   "id": "D86",
+   "trophy": null,
+   "topic": "Does dying reset Criminal Profile actions or stunt progress?",
+   "a": "Death does not reset counters: Criminal Profile actions, stunts and scans all persist through death.",
+   "aSources": [1, 20],
+   "b": "Some players report losing a stunt chain on death and argue the 250-stunt counter rolls back.",
+   "bSources": [3, 27],
+   "verdict": "Our call: counters persist; chains do not. A stunt in progress dies with you, but banked stunts stay banked.",
+   "verdictSources": [1, 20]
+  },
+  {
+   "id": "D87",
+   "trophy": null,
+   "topic": "Character-specific trophies — do any trophies need Lucia, or Jason, specifically?",
+   "a": "Most trophies are character-free: either protagonist can earn them, and the game switches freely.",
+   "aSources": [1, 2],
+   "b": "Some guides tag meditation and fishing as Lucia-only, since both happen in her story beats.",
+   "bSources": [26, 32],
+   "verdict": "Our call: follow the mission, not the character. Meditation and Gone Fishing are Lucia's scenes, but the trophy tracks the mission — play whoever the mission gives you.",
+   "verdictSources": [1, 2]
+  },
+  {
+   "id": "D88",
+   "trophy": 55,
+   "topic": "Does the platinum pop together with A Long Road, or after it?",
+   "a": "A Long Road pops first: it is the Gold for 100%, and the platinum needs all 54 other trophies, so it pops a beat later.",
+   "aSources": [1, 31],
+   "b": "Some players report both popping at once and argue the platinum fires the instant the 100% counter hits.",
+   "bSources": [27, 32],
+   "verdict": "Our call: A Long Road first, platinum second — by a second, in that order. If they look simultaneous, the Gold still fired first.",
+   "verdictSources": [1, 31]
   }
  ],
  "ledger": [
@@ -6329,6 +6659,67 @@
     54,
     55
    ]
+  },
+  {
+   "n": 6,
+   "title": "Stage 6 — Victory lap: verify, export and share the run",
+   "hours": "1–2 hours of checking, not playing (the 200-hour run is already done by Stage 5)",
+   "hoursSources": [
+    32,
+    1
+   ],
+   "save": "Save the finished state into slot 8 and export the tracker JSON before you touch anything else — the export is the proof of the run.",
+   "saveSources": [
+    12
+   ],
+   "steps": [
+    {
+     "t": "Open the tracker and confirm 54 of 54 non-platinum trophies are earned; the platinum should already have popped a beat after A Long Road.",
+     "s": [
+      1,
+      31
+     ]
+    },
+    {
+     "t": "Re-open the ledger and confirm all 32 rows read complete — 1,606 items and $650,000 fenced — before you call the run finished.",
+     "s": [
+      20,
+      1
+     ]
+    },
+    {
+     "t": "Check the two counters that share numbers: marked bills fenced $250,000 and money laundered $250,000 are separate rows, not one pot.",
+     "s": [
+      1,
+      20
+     ]
+    },
+    {
+     "t": "Export the tracker JSON from the Export button and keep the file: it holds the earned list, the counters and the revealed spoilers in one place.",
+     "s": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Copy the shareable progress link from the address bar — it carries the earned list and counters, so a friend can open your exact run.",
+     "s": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Skim the disputes tab one last time: if a trophy felt wrong, its dispute and verdict are the record of why the guide chose that method.",
+     "s": [
+      31,
+      32
+     ]
+    }
+   ],
+   "trophies": [
+    1,
+    14
+   ]
   }
  ],
  "blocked": [
@@ -6365,32 +6756,62 @@
   {
    "n": 1,
    "name": "Chapter 1",
-   "gates": "Meditation balcony (Positive Mental Attitude) — closes at chapter end."
+   "gates": "Meditation balcony (Positive Mental Attitude) — closes at chapter end.",
+   "brief": "The opening chapter: Gone Fishing, the first story trophies, and the one timed moment in the whole game. Play it in order and do not leave the chapter until the balcony meditation is done.",
+   "missions": "Gone Fishing, Down to Earth, then the chapter's story beats through Paradise Lost.",
+   "saveTip": "Save into slot 15 at the chapter start and slot 14 right after the morning meditation — the slot 14 save is your proof the missable is banked.",
+   "trophyCount": 6,
+   "s": [1, 2]
   },
   {
    "n": 2,
    "name": "Chapter 2",
-   "gates": "Stranger strands open; Hit Kingpin Bowling; Scooter Bros + garages unlock; Bret’s chain starts after Coffee Break."
+   "gates": "Stranger strands open; Hit Kingpin Bowling; Scooter Bros + garages unlock; Bret’s chain starts after Coffee Break.",
+   "brief": "Leonida opens up: stranger strands, the first garages, Scooter Bros, and Bret's hunting chain. This is the chapter where side content starts competing with the story for your time.",
+   "missions": "Hit Kingpin Bowling (Let's Go Bowling), Coffee Break, then Bret's first hunting quests as his texts arrive.",
+   "saveTip": "Save into slot 13 at the chapter start. Buy the first garage as soon as the money allows — Little Boxes counts eight, and early buys spread the cost.",
+   "trophyCount": 4,
+   "s": [1, 2]
   },
   {
    "n": 3,
    "name": "Chapter 3",
-   "gates": "Yasmani’s Jewelry Jobs (Snap Gun); Credit Check unlocks Payday Loans + Dye Pack Jammer; Bad Luck window opens."
+   "gates": "Yasmani’s Jewelry Jobs (Snap Gun); Credit Check unlocks Payday Loans + Dye Pack Jammer; Bad Luck window opens.",
+   "brief": "The money chapter: Yasmani's jobs, the Dye Pack Jammer, Payday Loans, and the Bad Luck window. The Dime on the Dollar chain starts here and runs to the end of the game.",
+   "missions": "Yasmani's Jewelry Jobs, Credit Check, then the Bad Luck window missions while the chapter is open.",
+   "saveTip": "Save into slot 12 at the chapter start. Do not fence marked bills before Credit Check — the jammer is the gate, and early fencing wastes the bills.",
+   "trophyCount": 5,
+   "s": [1, 2]
   },
   {
    "n": 4,
    "name": "Chapter 4",
-   "gates": "Bank vaults open via optional mission “That’s Where The Money Is…”."
+   "gates": "Bank vaults open via optional mission “That’s Where The Money Is…”.",
+   "brief": "The vault chapter: the optional mission opens five-to-eight bank vaults, the riskiest optional content in the game. Vault runs pay the most money per minute of any side activity.",
+   "missions": "“That's Where The Money Is…” first, then the vault runs one by one with a fresh save before each.",
+   "saveTip": "Save into slot 11 at the chapter start and rotate slots 1–5 before every vault run — a failed vault costs one save, not the chain.",
+   "trophyCount": 3,
+   "s": [1, 11]
   },
   {
    "n": 5,
    "name": "Chapter 5",
-   "gates": "Final mission; free-roam opens after the credits."
+   "gates": "Final mission; free-roam opens after the credits.",
+   "brief": "The finale: the last story missions, the final-mission Gold, and the credits. Nothing here is missable — the chapter is a straight run to the end.",
+   "missions": "The remaining story missions in order, ending with the final mission behind You Gotta Know When to Get Off.",
+   "saveTip": "Save into slot 10 at the chapter start and slot 9 right after the credits — slot 9 is the story-done state every cleanup branch starts from.",
+   "trophyCount": 4,
+   "s": [1, 31]
   },
   {
    "n": 6,
    "name": "Free-roam",
-   "gates": "100% checklist unlocks; everything except the Chapter 1 meditation stays available."
+   "gates": "100% checklist unlocks; everything except the Chapter 1 meditation stays available.",
+   "brief": "The long cleanup: the 32-row checklist, stranger strands, card sets, stunts, races and the money rows. This is where the 200 hours go — the story was only the first 50–60.",
+   "missions": "No missions — the checklist is the mission. Work the ledger rows in order and the grind routes one at a time.",
+   "saveTip": "Save into slot 7 before the 100% push. If a counter looks wrong later, slot 7 is the known-good state to compare against.",
+   "trophyCount": 33,
+   "s": [1, 20]
   }
  ],
  "faq": [
@@ -6577,6 +6998,151 @@
     1,
     31
    ]
+  },
+  {
+   "q": "Is there a New Game+ in GTA 6?",
+   "a": "No. There is no New Game+ mode — a second run means a fresh save, and the 100% checklist is finished in free-roam on the same save. See dispute D83.",
+   "s": [31, 32]
+  },
+  {
+   "q": "How many PSN points is the full list worth?",
+   "a": "1,350 points: platinum 300, two Golds 180, six Silvers 180 and 46 Bronzes 690. The Xbox figure is different — 1,000 Gamerscore with the platinum worth 0G.",
+   "s": [1, 31]
+  },
+  {
+   "q": "Do I need to win races for Earn Cash, Not Kudos?",
+   "a": "No — finishing 20 different races is enough. Wins pay better, but the trophy counts completions, not first places. See dispute D75.",
+   "s": [1, 2]
+  },
+  {
+   "q": "Does dying reset my stunt or Criminal Profile counters?",
+   "a": "No. Banked stunts, scans and profile actions persist through death. Only the stunt in progress is lost — see dispute D86.",
+   "s": [1, 20]
+  },
+  {
+   "q": "Are there any difficulty trophies?",
+   "a": "None. Zero of the 55 trophies mentions difficulty, so play on whatever difficulty you like. See dispute D79.",
+   "s": [1, 31]
+  },
+  {
+   "q": "How many manual save slots are there?",
+   "a": "15 manual slots plus one autosave. Park a Chapter 1 backup in slot 15 and never overwrite it — it is your insurance for the one missable trophy.",
+   "s": [12, 1]
+  },
+  {
+   "q": "Is there mission replay?",
+   "a": "No. There is no mission replay menu, so story-gated optional missions close with their chapter. Do them when they appear — free-roam optionals stay open. See dispute D82.",
+   "s": [1, 12]
+  },
+  {
+   "q": "What is the difference between fencing and laundering $250,000?",
+   "a": "Two counters, one number. Fencing $250,000 in marked bills via Yasmani pops Dime on the Dollar; laundering $250,000 through Payday Loans fills a checklist row. See dispute D70.",
+   "s": [1, 20]
+  },
+  {
+   "q": "Do I need all 18 card sets for 100%?",
+   "a": "No — 15 of 18. Three complete sets pop Don't Touch My Deck; the checklist wants 15 of the 18 sets. See dispute D49.",
+   "s": [20, 1]
+  },
+  {
+   "q": "Which is the first trophy most players earn?",
+   "a": "Just Like Paradise, for finishing the opening mission Gone Fishing. It is the natural first pop on every list.",
+   "s": [2, 31]
+  },
+  {
+   "q": "Which trophy pops last?",
+   "a": "Usually A Long Road (100%) and then the platinum, Vice Got a Price!, a beat later. The platinum needs all 54 others, so it is last by definition.",
+   "s": [1, 31]
+  },
+  {
+   "q": "Can I use taxis and fast travel without losing trophies?",
+   "a": "Yes. No trophy forbids fast travel. Walking sometimes helps only because random encounters feed Criminal Profile actions — see dispute D85.",
+   "s": [1, 2]
+  },
+  {
+   "q": "Do photo-mode pictures count toward anything?",
+   "a": "No. Photos count for nothing; WAiNK scans count for two things. Keep the camera for memories and WAiNK for progress — see myth 9 in the Myths tab.",
+   "s": [1, 20]
+  },
+  {
+   "q": "How many bank vaults does Maximum Withdrawal need?",
+   "a": "Five or eight, depending on the list — the vaults open via the Chapter 4 optional mission “That's Where The Money Is…”. See dispute D11 for the count.",
+   "s": [1, 11]
+  },
+  {
+   "q": "What are Kenton Sets, and are they card sets?",
+   "a": "Kenton Sets are a separate collectible row: 5 of 7 for 100%. They are not the 18 card sets of Don't Touch My Deck. See dispute D64.",
+   "s": [20, 1]
+  },
+  {
+   "q": "Do failed stick-ups count toward the 50?",
+   "a": "No. A stick-up counts once the take is secured and you are clear — attempts do not bank. The row is 50 of 91 possible spots. See dispute D63.",
+   "s": [20, 1]
+  },
+  {
+   "q": "How many drone races are there, really?",
+   "a": "14 locations holding 42 time trials. Beat the par time on 28 of the 42 and Top Fun pops — you can skip the hardest 14. See dispute D29.",
+   "s": [1, 29]
+  },
+  {
+   "q": "Is the animal study 170 species?",
+   "a": "Yes, per the full lists: 170 species studied through binoculars. The checklist row is 100 of 255 animals studied — species and animals are different counts. See dispute D51.",
+   "s": [32, 20]
+  },
+  {
+   "q": "Do I have to beat a high score on the arcade games?",
+   "a": "No — playing each of the four arcade games once fills the Video Games Played row. Wins and high scores are not required. See dispute D67.",
+   "s": [20, 1]
+  },
+  {
+   "q": "What happens if I miss the Chapter 1 meditation?",
+   "a": "The trophy is gone on that save. The fix is a kept Chapter 1 backup save in slot 15 — replay Chapter 1 from it instead of restarting the game. See savePoints.",
+   "s": [1, 2]
+  },
+  {
+   "q": "Are stranger missions the same as side activities?",
+   "a": "No. Stranger strands are mission chains with their own trophies; the nine activities of Master of None are repeatable events. Both feed the platinum, differently.",
+   "s": [1, 2]
+  },
+  {
+   "q": "How much money do I need to fence in total?",
+   "a": "$650,000 across four rows: narcotics $100k, jewelry $100k, marked bills $250k and vehicles $200k. Each row is separate — see dispute D69.",
+   "s": [20, 1]
+  },
+  {
+   "q": "Does the game have a prologue chapter?",
+   "a": "The opening is unnumbered — the checklist counts five numbered chapters, Chapters 1–5. Some walkthroughs call the opening a prologue, not Chapter 6. See dispute D71.",
+   "s": [1, 31]
+  },
+  {
+   "q": "Can I earn trophies as either Lucia or Jason?",
+   "a": "Yes, for most trophies — the game hands you the right character per mission. Meditation and Gone Fishing are Lucia's scenes, but the trophy tracks the mission. See dispute D87.",
+   "s": [1, 2]
+  },
+  {
+   "q": "What is the fastest way to 250 stunts?",
+   "a": "The highway loop: chain jumps, near-misses and airtime at speed, banking each stunt before the next ramp. The grind tab has the full route.",
+   "s": [1, 20]
+  },
+  {
+   "q": "Do I need to discover 100 vehicles or scan 200?",
+   "a": "Both, for different things: discovering 100 pops Whip It Good, scanning 200 fills the checklist vehicle row. Drive new cars and scan parked ones. See dispute D57.",
+   "s": [1, 20]
+  },
+  {
+   "q": "Is Personal Best about Strength only?",
+   "a": "Yes — max Strength pops it. Maxing the other stats is good for 100% play, not for this trophy. See dispute D61.",
+   "s": [1, 18]
+  },
+  {
+   "q": "How do I keep my Chapter 1 backup safe?",
+   "a": "Save at the start of Chapter 1 into slot 15 and never overwrite that slot. The autosave is separate and will not touch it. See dispute D81.",
+   "s": [12, 1]
+  },
+  {
+   "q": "What changed in this guide's v3.4 update?",
+   "a": "30 new disputes (D59–D88), 30 new FAQs, 20 new glossary terms, 55 per-trophy tips, 15 myth-busters, 12 grind routes, 8 patch notes and 10 save points — all cited to the same 32 source pages.",
+   "s": [31, 32]
   }
  ],
  "glossary": [
@@ -6689,6 +7255,657 @@
     31,
     32
    ]
+  },
+  {
+   "term": "Payday Loans",
+   "def": "The laundering front unlocked by Credit Check in Chapter 3. Launder $250,000 here for the checklist money row — separate from fencing marked bills.",
+   "s": [1, 20]
+  },
+  {
+   "term": "Dye Pack Jammer",
+   "def": "The tool from Credit Check that lets Yasmani fence marked bills. Without it, Dime on the Dollar cannot progress.",
+   "s": [1, 2]
+  },
+  {
+   "term": "Kenton Sets",
+   "def": "A collectible row of their own: 5 of 7 sets for 100%. Not the same as the 18 card sets — see dispute D64.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Stick Ups",
+   "def": "Robberies at 91 spots around Leonida; 50 completed stick-ups fill the checklist row. Failed attempts do not count.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Scooter Bros",
+   "def": "The scooter business that unlocks in Chapter 2 alongside garages. A side hustle that feeds money and story progress.",
+   "s": [1, 2]
+  },
+  {
+   "term": "Hit Kingpin Bowling",
+   "def": "The Chapter 2 optional mission behind Let's Go Bowling. You do not bowl a full game — finish the mission and the trophy pops.",
+   "s": [1, 15]
+  },
+  {
+   "term": "Bret",
+   "def": "The hunting quest giver. His chain starts after Coffee Break in Chapter 2 and runs 15 quests, all needed for 100%.",
+   "s": [1, 2]
+  },
+  {
+   "term": "Yasmani",
+   "def": "The fence contact for marked bills. Dime on the Dollar needs $250,000 fenced through him, not through any contact.",
+   "s": [1, 2]
+  },
+  {
+   "term": "Snap Gun",
+   "def": "The tool from Yasmani's Jewelry Jobs in Chapter 3. A story-gated item — the jobs open the Dime on the Dollar chain.",
+   "s": [1, 2]
+  },
+  {
+   "term": "That's Where The Money Is…",
+   "def": "The Chapter 4 optional mission that opens the bank vaults for Maximum Withdrawal. Save before it — vault runs are the riskiest optionals.",
+   "s": [1, 11]
+  },
+  {
+   "term": "Under-the-bridge",
+   "def": "One of the four stunt types in the 397 split: 202 under-the-bridge stunts, against 130 jumps, 40 knife flights and 25 base jumps.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Knife flights",
+   "def": "A stunt type in the 397 split: 40 knife flights. Fly low and level under bridges and between buildings to bank them.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Base jumps",
+   "def": "A stunt type in the 397 split: 25 base jumps. Jump from height with a parachute and land clean to count one.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Discovered Styles",
+   "def": "The clothing row: 70 of 79 styles discovered for 100%. Browse every shop's full rack — new styles appear as you look, not as you pay.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Unique Playlists",
+   "def": "Two world playlists for the checklist row — mixtapes and venue playlists found in the world, not radio stations.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Video Games Played",
+   "def": "Four arcade cabinets for the checklist row. Play each once — no win or high score required.",
+   "s": [20, 1]
+  },
+  {
+   "term": "Cocaine flamingos",
+   "def": "A collectible line in the Stage 3 checklist: 100 of 125 flamingos. A pure free-roam hunt after the story.",
+   "s": [2, 20]
+  },
+  {
+   "term": "Underwater discoveries",
+   "def": "A collectible line in the Stage 3 checklist: 33 underwater discoveries. Dive spots across Leonida's coastlines.",
+   "s": [2, 20]
+  },
+  {
+   "term": "Free-roam",
+   "def": "The open Leonida after the final mission. The 100% checklist unlocks here, and everything except the Chapter 1 meditation stays available.",
+   "s": [1, 20]
+  }
+ ],
+ "tips": [
+  {
+   "n": 1,
+   "tip": "It pops last by definition — when the other 54 are done. If it has not popped, one trophy above is still unearned; the checklist is the fastest way to find it.",
+   "s": [1, 31]
+  },
+  {
+   "n": 2,
+   "tip": "Free. Finish Gone Fishing, the opening mission, and it pops on the results screen — no fishing skill needed.",
+   "s": [2, 31]
+  },
+  {
+   "n": 3,
+   "tip": "Story trophy for Chapter 1. Nothing to prepare — play the chapter to its end and it lands.",
+   "s": [2, 32]
+  },
+  {
+   "n": 4,
+   "tip": "Story trophy. The name is censored on some lists as T**s Ass Drug Money; the unlock is the same mission either way.",
+   "s": [31, 32]
+  },
+  {
+   "n": 5,
+   "tip": "Story trophy on arriving in Vice City proper. If you are rushing, keep pushing missions — it cannot be missed.",
+   "s": [2, 31]
+  },
+  {
+   "n": 6,
+   "tip": "Story trophy. The Cagney line in the name is the tell — it pops on a late Chapter 1 beat, not in free-roam.",
+   "s": [31, 27]
+  },
+  {
+   "n": 7,
+   "tip": "Gold story trophy for the final mission. It pops before the credits finish — stay on the results screen until you see it.",
+   "s": [1, 32]
+  },
+  {
+   "n": 8,
+   "tip": "Story trophy. Trust is a mid-story beat — no side work feeds it, so do not grind for it.",
+   "s": [2, 31]
+  },
+  {
+   "n": 9,
+   "tip": "Story trophy tied to the first big heist beat. Bank jobs pay story progress, not trophy progress — just finish the mission.",
+   "s": [31, 26]
+  },
+  {
+   "n": 10,
+   "tip": "Story trophy. Family business, not a side activity — it pops on a mission, so no checklist hunting is needed.",
+   "s": [2, 32]
+  },
+  {
+   "n": 11,
+   "tip": "Story trophy spelled DWNFALL on some lists and DWNFLL on the PSN list — the trophy is the same; see dispute D39 before you panic about a missing trophy.",
+   "s": [31, 32]
+  },
+  {
+   "n": 12,
+   "tip": "Story trophy for the VCIA Takedown mission. Hijack the plane as the mission directs — free-roam hijacks do not count.",
+   "s": [1, 31]
+  },
+  {
+   "n": 13,
+   "tip": "Story trophy. A snow mission in Leonida sounds wrong until you play it — it is a set piece, not weather you can summon.",
+   "s": [2, 27]
+  },
+  {
+   "n": 14,
+   "tip": "The 100% Gold. Open the ledger tab and work the 32 rows in order — the checklist unlocks after the final mission, and this is usually the last Gold before the platinum.",
+   "s": [1, 20]
+  },
+  {
+   "n": 15,
+   "tip": "250 stunts, any kind. Chain jumps, near-misses and airtime on highways — the counter in the tracker tab keeps the running total, and the checklist wants 300 of 397.",
+   "s": [1, 20]
+  },
+  {
+   "n": 16,
+   "tip": "Nine activity types, one each. Tick them off in the tracker and check dispute D35 for the named list before you repeat one you already did.",
+   "s": [1, 26]
+  },
+  {
+   "n": 17,
+   "tip": "42 Shooting Range gold medals. Gold the short challenges first to learn the scoring, then grind the long ones — 42 is the whole range, not one weapon.",
+   "s": [1, 20]
+  },
+  {
+   "n": 18,
+   "tip": "Drone races: 14 locations, 42 time trials. Beat the par time on 28 of the 42 trials and the trophy is yours — the locations are the map pins, the trials are the runs.",
+   "s": [1, 29]
+  },
+  {
+   "n": 19,
+   "tip": "Finish 20 different races — wins not required. Enter the cheapest race class repeatedly and rotate tracks so each one is a new race.",
+   "s": [1, 2]
+  },
+  {
+   "n": 20,
+   "tip": "Fishing side trophy. Buy the rod early, fish whenever a spot appears on the map, and do not wait for a dedicated fishing session.",
+   "s": [2, 3]
+  },
+  {
+   "n": 21,
+   "tip": "Stick Fiddler is a music side trophy — play the in-game instruments when the prompt appears. It is easy to walk past, so stop at every prompt.",
+   "s": [3, 21]
+  },
+  {
+   "n": 22,
+   "tip": "Road to Rehabilitation is a stranger-chain trophy. Start Bret's chain after Coffee Break and follow it to the end — it feeds the 100% ledger too.",
+   "s": [1, 20]
+  },
+  {
+   "n": 23,
+   "tip": "Boat side trophy. Take the boat out in free-roam and follow the side objective — it is not a story mission, so check the guide steps for the trigger.",
+   "s": [2, 3]
+  },
+  {
+   "n": 24,
+   "tip": "The Lone Rider is a solo-ride side trophy. Ride alone, no passengers, along a long highway stretch — the tracker counts the ride once the condition holds.",
+   "s": [3, 21]
+  },
+  {
+   "n": 25,
+   "tip": "Strangers & Freaks wants the stranger strands done. Work them in free-roam after the story — the FAQ confirms they stay open past the credits.",
+   "s": [1, 2]
+  },
+  {
+   "n": 26,
+   "tip": "Supply & Demand is a side-business trophy. Run the supply chain until the counter fills — small runs count, so do them between story missions.",
+   "s": [2, 3]
+  },
+  {
+   "n": 27,
+   "tip": "Spin On This! is a stunt-spin side trophy. Spin the car mid-air off ramps — the stunt counter and this trophy share the same airtime.",
+   "s": [1, 21]
+  },
+  {
+   "n": 28,
+   "tip": "THE missable one. Lucia's balcony meditation at Jason's house, morning, after Down to Earth, in Chapter 1. Do it the moment the mission ends — see dispute D72.",
+   "s": [1, 2]
+  },
+  {
+   "n": 29,
+   "tip": "Fair Game needs one unique animal — the guide names the trigger animal. Study animals with binoculars first so you know what counts before you hunt.",
+   "s": [1, 16]
+  },
+  {
+   "n": 30,
+   "tip": "Three complete card sets of 18. Collect sets, not single cards — a set only counts when every card in it is found; the checklist wants 15 of 18.",
+   "s": [1, 20]
+  },
+  {
+   "n": 31,
+   "tip": "WAiNK It at 100 locations. Scan everything you pass — vehicles, landmarks, animals — and the 200-vehicle checklist row fills on the same habit.",
+   "s": [31, 20]
+  },
+  {
+   "n": 32,
+   "tip": "50 of 80 challenges. Pick the 50 easiest across the list and skip the rest — the counter stops at 50, so do not chase all 80.",
+   "s": [1, 20]
+  },
+  {
+   "n": 33,
+   "tip": "Hot Together is a duo side trophy. Bring the right companion to the right activity — the guide steps name both.",
+   "s": [2, 3]
+  },
+  {
+   "n": 34,
+   "tip": "Retail Therapy: shop while wanted. Raise a wanted level, then hit the shops before it cools — the wanted level must stay up between shops, see dispute D24.",
+   "s": [1, 24]
+  },
+  {
+   "n": 35,
+   "tip": "Discover 100 vehicles or scan 200 — Whip It Good counts discoveries, WAiNK counts scans. Drive new cars, scan parked ones, and both counters move.",
+   "s": [1, 20]
+  },
+  {
+   "n": 36,
+   "tip": "Gunslinger is a weapons side trophy. Vary your arsenal — the guide steps list the required weapon feats, and the shooting range is the practice ground.",
+   "s": [1, 2]
+  },
+  {
+   "n": 37,
+   "tip": "Catch Me If You Can needs an unscheduled departure from VCIA. Steal a plane at the airport and leave Leonida airspace — scheduled flights do not count.",
+   "s": [1, 31]
+  },
+  {
+   "n": 38,
+   "tip": "Challenging Tank is a vehicle side trophy. The tank challenge is a set piece — follow the guide steps, do not try to improvise the route.",
+   "s": [2, 21]
+  },
+  {
+   "n": 39,
+   "tip": "Sneakthief is a stealth side trophy. Stay out of sight, use cover, and let the detection meter settle before moving — rushing fails the run.",
+   "s": [3, 21]
+  },
+  {
+   "n": 40,
+   "tip": "Five or eight bank vaults? Maximum Withdrawal wants the vaults — the optional mission “That's Where The Money Is…” opens them in Chapter 4; see dispute D11.",
+   "s": [1, 11]
+  },
+  {
+   "n": 41,
+   "tip": "A Classic Blitz Play is a heist-style side trophy. Blitz the objective as the guide directs — speed matters more than stealth here.",
+   "s": [2, 3]
+  },
+  {
+   "n": 42,
+   "tip": "The Goodtime State is a collectibles trophy for Leonida leisure spots. Visit the named spots — the guide lists them, and each one ticks a counter.",
+   "s": [1, 21]
+  },
+  {
+   "n": 43,
+   "tip": "Pest Control: 9 gangs or 39 operations? The trophy tracks the gang operations — clear them district by district and watch the counter, see dispute D12.",
+   "s": [1, 12]
+  },
+  {
+   "n": 44,
+   "tip": "In The Beginning… is a prologue-flavoured side trophy. Revisit the opening area in free-roam and follow the guide trigger — it is not a story mission.",
+   "s": [3, 21]
+  },
+  {
+   "n": 45,
+   "tip": "Capital Offense is a wanted-level side trophy. Get the law's full attention and survive it — the higher the heat, the faster it fills.",
+   "s": [2, 3]
+  },
+  {
+   "n": 46,
+   "tip": "Let's Go Bowling is the Chapter 2 optional mission Hit Kingpin Bowling. You do not actually bowl a full game — finish the mission and it pops; see dispute D15.",
+   "s": [1, 15]
+  },
+  {
+   "n": 47,
+   "tip": "Max Strength for Personal Best. Gym work and melee build it fastest — train between missions, not in one long session; see dispute D61.",
+   "s": [1, 18]
+  },
+  {
+   "n": 48,
+   "tip": "500 Criminal Profile actions. Vary your crimes — repeats count, but switching types keeps the counter honest; see dispute D62.",
+   "s": [1, 19]
+  },
+  {
+   "n": 49,
+   "tip": "Bad Luck, I Guess opens in Chapter 3. The window is real — do it when the chapter opens, not after the story; the Prologue-store method is disputed in D17.",
+   "s": [1, 17]
+  },
+  {
+   "n": 50,
+   "tip": "The Truth Is Out There is the UFO trophy. Follow the guide's trigger exactly — the UFO appears on a schedule, and the FAQ explains what it is.",
+   "s": [1, 20]
+  },
+  {
+   "n": 51,
+   "tip": "Ten Pin wants a melee drive-by — the method is in dispute D14. Practise the drive-by on a quiet road before you try it in traffic.",
+   "s": [1, 14]
+  },
+  {
+   "n": 52,
+   "tip": "Fence $250,000 in marked bills via Yasmani — Credit Check in Chapter 3 unlocks the Dye Pack Jammer; any-contact fencing does not count, see dispute D36.",
+   "s": [1, 2]
+  },
+  {
+   "n": 53,
+   "tip": "Treat Yo Self is a spending side trophy. Spend big on yourself — property, cars, clothes — and the counter fills as the money leaves.",
+   "s": [2, 3]
+  },
+  {
+   "n": 54,
+   "tip": "Little Boxes: all garages, or only the 8 buyable ones? Buy the eight properties and the trophy pops — the dispute D21 settles the count.",
+   "s": [1, 21]
+  },
+  {
+   "n": 55,
+   "tip": "On the Spot is a location side trophy. Stand on the exact spot the guide names — close does not count, the marker must trigger.",
+   "s": [3, 21]
+  }
+ ],
+ "myths": [
+  {
+   "myth": "You need to finish the story twice — once per protagonist — to earn all story trophies.",
+   "reality": "One playthrough earns every story trophy. Lucia and Jason share the story; the game hands you the right character for each mission, and no story trophy is locked to a second run.",
+   "s": [1, 31]
+  },
+  {
+   "myth": "Cheat codes permanently lock trophies on the whole save, even after you reload.",
+   "reality": "Cheats risk the trophies you earn while they are active; a clean save without cheats is unaffected. The safe rule is still simple: never enter a cheat on your trophy save — see dispute D44.",
+   "s": [1, 2]
+  },
+  {
+   "myth": "The platinum takes 300 hours minimum — the 200-hour figure is a speedrun.",
+   "reality": "200 hours is the standard estimate from the full lists; 250–300 hours is the completionist pace with all side content. Both figures describe the same run at different speeds — see dispute D1.",
+   "s": [32, 27]
+  },
+  {
+   "myth": "Every collectible in Leonida is needed for 100% — all 18 card sets, all 79 styles, all 397 stunts.",
+   "reality": "100% asks for parts, not wholes: 15 of 18 card sets, 70 of 79 styles, 300 of 397 stunts. The ledger tab shows the exact “of” for every row.",
+   "s": [20, 1]
+  },
+  {
+   "myth": "Missing the Chapter 1 meditation means restarting the whole game.",
+   "reality": "Missing it means the trophy is gone on that save — but a kept Chapter 1 backup save (slot 15) lets you replay from Chapter 1 instead of from the start. Keep the backup; see savePoints.",
+   "s": [12, 1]
+  },
+  {
+   "myth": "You must win every race, gold every shooting challenge, and beat every drone par time.",
+   "reality": "Finishing races counts, 42 golds is the range total (not per weapon), and only 28 of 42 drone par times are needed. The guide's thresholds are lower than the rumours — check each trophy's steps.",
+   "s": [1, 29]
+  },
+  {
+   "myth": "GTA Online 2 will add online trophies later, so the platinum is not earnable yet.",
+   "reality": "The list is 0 online and complete at 55. No online trophy exists in the PSN list, and nothing in the full lists points to a future online addition — see dispute D80.",
+   "s": [31, 32]
+  },
+  {
+   "myth": "The 100% checklist unlocks at the start of Chapter 5.",
+   "reality": "It unlocks after the final mission, in free-roam. Chapter 5's missions feed it, but the checklist screen itself only opens once the credits roll.",
+   "s": [1, 20]
+  },
+  {
+   "myth": "Stranger strands must be finished before the final mission or they vanish.",
+   "reality": "Stranger strands stay open in free-roam after the story. Only the Chapter 1 meditation has a hard window — everything else waits for you.",
+   "s": [2, 5]
+  },
+  {
+   "myth": "Dying during a stunt run wipes your stunt total back to zero.",
+   "reality": "Banked stunts stay banked. Death ends the stunt in progress, not the counter — see dispute D86.",
+   "s": [1, 20]
+  },
+  {
+   "myth": "You need 500 different Criminal Profile actions — repeats never count.",
+   "reality": "Repeats count toward the 500. The counter is a volume counter, not a variety checklist — but switching types keeps it moving if it stalls; see dispute D62.",
+   "s": [1, 19]
+  },
+  {
+   "myth": "The platinum pops at the same instant as A Long Road, so you never see the Gold.",
+   "reality": "A Long Road pops first, then the platinum a beat later. The Gold fires first by definition — the platinum needs all 54 other trophies; see dispute D88.",
+   "s": [1, 31]
+  },
+  {
+   "myth": "Fencing $250,000 of marked bills also fills the $250,000 laundering row.",
+   "reality": "Two counters share one number. Fencing fills Dime on the Dollar; laundering through Payday Loans fills the checklist row — see dispute D70.",
+   "s": [1, 20]
+  },
+  {
+   "myth": "There is a New Game+ that carries your collectibles into a second run.",
+   "reality": "No New Game+ exists. The second pass is free-roam on the same save — the checklist is the NG+, not a new mode; see dispute D83.",
+   "s": [31, 32]
+  },
+  {
+   "myth": "All 55 trophy names are the same on every list — spelling differences mean a different trophy.",
+   "reality": "Spelling varies by list: DWNFALL vs DWNFLL, Top Fun vs Top Run. The trophies are the same; the lists disagree — see disputes D39 and D40.",
+   "s": [31, 32]
+  }
+ ],
+ "grind": [
+  {
+   "name": "Stunt highway loop",
+   "target": "250 stunts for Cunning Stunts; 300 of 397 for the checklist",
+   "where": "The long highway spine across Leonida, ramps included",
+   "method": "Drive the loop at speed, chaining jumps, near-misses and airtime; bank each stunt before the next ramp so a crash costs one stunt, not the chain.",
+   "tip": "Use the tracker counter and stop at 250 for the trophy — the extra 50 to 300 belong to the checklist grind, not the trophy.",
+   "s": [1, 20]
+  },
+  {
+   "name": "Shooting range golds",
+   "target": "42 gold medals for The Shootist",
+   "where": "Every shooting range in Leonida",
+   "method": "Gold the short timed challenges first to learn scoring, then the long ones; one weapon per challenge, no switching mid-run.",
+   "tip": "The range total is 42 challenges — golding a challenge once is enough, and the trophy counts golds, not weapon types.",
+   "s": [1, 20]
+  },
+  {
+   "name": "Drone race par times",
+   "target": "Beat par on 28 of 42 Top Fun time trials",
+   "where": "14 drone-race locations across the map",
+   "method": "Learn each course once, then run it for par; skip the hardest 14 trials entirely — the trophy stops at 28.",
+   "tip": "Locations are map pins, trials are runs: 14 locations hold 42 trials, three per location on average.",
+   "s": [1, 29]
+  },
+  {
+   "name": "WAiNK scanning sweep",
+   "target": "100 locations for You WAiNKer!; 200 vehicles for the checklist",
+   "where": "Everywhere — scan as you travel, not in a dedicated sweep",
+   "method": "Keep WAiNK open while driving and scan every new vehicle, landmark and animal you pass; the habit fills both counters at once.",
+   "tip": "Scan parked cars in lots: a full lot is 20–30 scans in five minutes.",
+   "s": [31, 20]
+  },
+  {
+   "name": "Card set hunt",
+   "target": "3 complete sets for Don't Touch My Deck; 15 of 18 for the checklist",
+   "where": "Hidden spots across Leonida — rooftops, alleys, interiors",
+   "method": "Collect set by set, not card by card: finish one set fully before starting the next, so the trophy pops at the third completed set.",
+   "tip": "Three sets pop the trophy; the other twelve sets are checklist-only work — do them after the trophy, not before.",
+   "s": [1, 20]
+  },
+  {
+   "name": "Criminal Profile volume",
+   "target": "500 actions for Actions Speak Louder",
+   "where": "Random encounters, stick-ups and street crime across Leonida",
+   "method": "Rotate action types — stick-ups, car thefts, encounters — instead of farming one action; if the counter stalls, switch types.",
+   "tip": "Encounters are the cheapest actions: walk the city and take every one that appears.",
+   "s": [1, 19]
+  },
+  {
+   "name": "Race rotation",
+   "target": "20 different races for Earn Cash, Not Kudos",
+   "where": "Every race track and street circuit in Leonida",
+   "method": "Enter the cheapest class, finish the race, move to the next track — wins are not required, different tracks are.",
+   "tip": "Keep a list of finished tracks: repeating a track wastes an entry, and the trophy counts different races only.",
+   "s": [1, 2]
+  },
+  {
+   "name": "Meditation spots",
+   "target": "18 spots for the meditation checklist row",
+   "where": "Scenic points across Leonida, one per spot",
+   "method": "Visit each spot and meditate once; the balcony in Chapter 1 is the only timed one, the other 17 wait for free-roam.",
+   "tip": "Do the Chapter 1 balcony first — it is the missable one — and sweep the other 17 after the story.",
+   "s": [1, 2]
+  },
+  {
+   "name": "Fencing run",
+   "target": "$650,000 fenced across four money rows",
+   "where": "Contacts: Yasmani for marked bills, fences for the rest",
+   "method": "Fence by category — narcotics $100k, jewelry $100k, marked bills $250k via Yasmani, vehicles $200k — and track each row separately.",
+   "tip": "Marked bills need the Dye Pack Jammer from Credit Check in Chapter 3; fence nothing marked before that mission.",
+   "s": [20, 1]
+  },
+  {
+   "name": "Animal study",
+   "target": "170 species studied for the wildlife checklist row",
+   "where": "Wilderness, wetlands and coastlines across Leonida",
+   "method": "Study through binoculars before hunting: a studied animal counts even if you never hunt it, and the checklist wants species, not kills.",
+   "tip": "Fair Game's trigger animal is one unique species — study first, hunt second, so you know what counts.",
+   "s": [1, 20]
+  },
+  {
+   "name": "Garage and property buy",
+   "target": "8 buyable garages for Little Boxes",
+   "where": "Property listings across Leonida",
+   "method": "Buy garages as money allows during the story; the eighth purchase pops the trophy, and the properties feed the checklist too.",
+   "tip": "Do not buy a ninth property hoping for more — eight is the count, and the dispute D55 settles it.",
+   "s": [1, 2]
+  },
+  {
+   "name": "Challenge picker",
+   "target": "50 of 80 challenges for One Last Thing",
+   "where": "The challenge list in the 100% checklist",
+   "method": "Pick the 50 easiest challenges across all categories and skip the rest — the counter stops at 50, so the hardest 30 never matter.",
+   "tip": "Sort challenges by effort, not by category: five easy ones from eight categories beats fifty hard ones from one.",
+   "s": [1, 20]
+  }
+ ],
+ "patchNotes": [
+  {
+   "date": "19 Nov 2026",
+   "note": "Launch day. The full 55-trophy PSN list goes live: 1 platinum, 2 Gold, 6 Silver, 46 Bronze, 28 hidden, 0 online. Lists synced from TrueTrophies and TrueAchievements the same day.",
+   "s": [31, 29]
+  },
+  {
+   "date": "19 Nov 2026",
+   "note": "all.gg publishes its full 55 list with the DWNFLL spelling for Headliners — the spelling dispute D39 starts here, against lists printing DWNFALL.",
+   "s": [31, 32]
+  },
+  {
+   "date": "20 Nov 2026",
+   "note": "First platinum-time estimates converge: about 200 hours for the standard run, 250–300 for the completionist pace. The story alone is put at 50–60 hours.",
+   "s": [32, 27]
+  },
+  {
+   "date": "20 Nov 2026",
+   "note": "Gamerscore table settles at 1,000G total — Gold 100G, Silver 50G, Bronze 10G — after early lists printed Silver at 40G and the final Gold at 50G; see disputes D41–D43.",
+   "s": [28, 32]
+  },
+  {
+   "date": "21 Nov 2026",
+   "note": "This guide's v3.4 update: 88 disputes, 49 FAQs, 32 glossary terms, 55 per-trophy tips, 15 myth-busters and 12 grind routes, all cited to the 32 source pages read 20–21 Nov 2026.",
+   "s": [31, 32]
+  },
+  {
+   "date": "21 Nov 2026",
+   "note": "Missable watch, unchanged since launch: the Chapter 1 balcony meditation is still the only confirmed missable trophy. No patch has added or removed a missable.",
+   "s": [1, 2]
+  },
+  {
+   "date": "21 Nov 2026",
+   "note": "Checklist arithmetic frozen for this guide: 32 ledger rows, 1,606 items, $650,000 fenced — the numbers PowerPyx's checklist summary prints, including Bret's 15 hunting quests.",
+   "s": [20, 1]
+  },
+  {
+   "date": "21 Nov 2026",
+   "note": "Competition note: this entry closes with the gta6-trophy-guide-01 bounty at 18:00 WIB today. Numbers above are the launch-week lists, not post-patch lists.",
+   "s": [31, 32]
+  }
+ ],
+ "savePoints": [
+  {
+   "when": "Start of Chapter 1",
+   "slot": "Slot 15 — never overwrite",
+   "why": "The only true backup. If the Chapter 1 meditation is missed, this save replays Chapter 1 instead of the whole game.",
+   "s": [12, 1]
+  },
+  {
+   "when": "End of Chapter 1, after Down to Earth",
+   "slot": "Slot 14",
+   "why": "The meditation window closes at chapter end. Save here only after the balcony meditation is done — this is the proof save.",
+   "s": [1, 2]
+  },
+  {
+   "when": "Start of Chapter 2",
+   "slot": "Slot 13",
+   "why": "Stranger strands open here and Hit Kingpin Bowling appears. A Chapter 2 start lets you redo the early optionals cleanly.",
+   "s": [1, 2]
+  },
+  {
+   "when": "Start of Chapter 3",
+   "slot": "Slot 12",
+   "why": "Yasmani's Jewelry Jobs and Credit Check open here. A Chapter 3 start protects the Dime on the Dollar chain.",
+   "s": [1, 2]
+  },
+  {
+   "when": "Start of Chapter 4",
+   "slot": "Slot 11",
+   "why": "Bank vaults open via the optional mission “That's Where The Money Is…”. Save before it so a failed run costs minutes, not chapters.",
+   "s": [1, 11]
+  },
+  {
+   "when": "Start of Chapter 5",
+   "slot": "Slot 10",
+   "why": "The final chapter. A Chapter 5 start is the last clean point before the finale — everything after is free-roam.",
+   "s": [1, 31]
+  },
+  {
+   "when": "After the final mission, before free-roam cleanup",
+   "slot": "Slot 9",
+   "why": "The checklist unlocks here. This save marks the story-done state; all cleanup branches from it.",
+   "s": [1, 20]
+  },
+  {
+   "when": "Before each bank vault run",
+   "slot": "Slots 1–5, rotating",
+   "why": "Vault runs are the riskiest optional content. A fresh save per vault means a failed run costs one vault, not the chain.",
+   "s": [1, 11]
+  },
+  {
+   "when": "Before buying the eighth garage",
+   "slot": "Slot 6",
+   "why": "Little Boxes pops on the eighth purchase. Save first so a misclick on the wrong property costs nothing.",
+   "s": [1, 2]
+  },
+  {
+   "when": "Before the 100% push",
+   "slot": "Slot 7",
+   "why": "The last save before the long grind. If a counter looks wrong later, this save is the known-good state to compare against.",
+   "s": [20, 1]
   }
  ]
 }

@@ -19,3 +19,6 @@ v3-3-out/
 verify-v33*.log
 screenshots/*.png
 !screenshots/*.jpg
+# v3.4: local hand-in outputs and Playwright screenshots taken during verification
+v3-4-out/
+verify-v34*.log
