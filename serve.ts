@@ -1,8 +1,11 @@
-// Leonida Platinum v3 — tiny static server for app/ (Node 22, standard library only).
+// Leonida Platinum v3.2 — tiny static server for app/ (Node 22, standard library only).
 // Run `node serve.ts` and open http://localhost:8080 (or `--port <n>` for another
 // port, `HOST=0.0.0.0 node serve.ts` to listen beyond localhost). It serves only
 // files under app/, with the MIME types a browser needs, and refuses any path that
-// escapes the folder. A development convenience, not a server for the internet —
+// escapes the folder. It also serves the verification screenshots under
+// /screenshots/ (from the repo's screenshots/ folder beside app/), so the
+// screenshots the dossier carries can be checked in the same browser session.
+// A development convenience, not a server for the internet —
 // the guide itself needs no server at all beyond static files.
 // Every request is logged on one line (method, path, status, bytes) so a missing
 // data file or a bad asset shows up immediately instead of failing silently.
@@ -12,6 +15,7 @@ import { extname, join, normalize, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(fileURLToPath(new URL('./app', import.meta.url)));
+const shotsRoot = resolve(fileURLToPath(new URL('./screenshots', import.meta.url)));
 const args = process.argv.slice(2);
 const portIndex = args.indexOf('--port');
 const requested = portIndex === -1 ? 8080 : Number(args[portIndex + 1]);
@@ -53,8 +57,13 @@ createServer((request, response) => {
     return;
   }
   if (pathname.endsWith('/')) pathname += 'index.html';
-  const file = resolve(join(root, normalize(pathname)));
-  if (file !== root && !file.startsWith(root + sep)) {
+  // /screenshots/<file> is served from the repo's screenshots/ folder;
+  // everything else comes from app/. Both roots refuse path escapes.
+  const shots = pathname === '/screenshots' || pathname.startsWith('/screenshots/');
+  const base = shots ? shotsRoot : root;
+  const rel = shots ? pathname.slice('/screenshots'.length) || '/index.html' : pathname;
+  const file = resolve(join(base, normalize(rel)));
+  if (file !== base && !file.startsWith(base + sep)) {
     response.writeHead(403).end('forbidden');
     logLine(method, pathname, 403, 0, Date.now() - started);
     return;
@@ -83,5 +92,5 @@ createServer((request, response) => {
   logLine(method, pathname, 200, size, Date.now() - started);
   createReadStream(file).pipe(response);
 }).listen(port, host, () => {
-  console.log(`Leonida Platinum v3.1 is on http://${host}:${port}`);
+  console.log(`Leonida Platinum v3.2 is on http://${host}:${port}`);
 });

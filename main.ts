@@ -1,8 +1,8 @@
-// Leonida Platinum v3.1 — GTA 6 trophy guide entry (Node 22, standard library only).
+// Leonida Platinum v3.2 — GTA 6 trophy guide entry (Node 22, standard library only).
 // The guide itself is plain static files in app/ (index.html, style.css, app.js and
-// data/trophies.json with all 55 official trophies, their cited guides, 31 disputes
-// with verdicts, a 26-row 100% ledger and a 5-stage roadmap, backed by 25 source pages
-// from 22 sites, all read 20-21 Nov 2026). It runs offline in
+// data/trophies.json with all 55 official trophies, their cited guides, 38 disputes
+// with verdicts, a 32-row 100% ledger and a 5-stage roadmap, backed by 30 source pages
+// from 27 sites, all read 20-21 Nov 2026). It runs offline in
 // desktop Chrome from a static server; it fetches nothing over the network.
 // This program hands the entry in: it copies app/ and screenshots/ from beside this
 // file into the output directory and writes output/dossier.json with the kit's
@@ -34,12 +34,15 @@ if (unguided.length > 0) {
   throw new Error(`${unguided.length} trophies have no guide: ${unguided.map((t) => t?.name ?? '?').join(', ')}`);
 }
 
-// v3.1 audit gate: the numbers the app itself computes at load must clear the bar the
+// v3.2 audit gate: the numbers the app itself computes at load must clear the bar the
 // guide advertises, or the hand-in is refused here instead of at the scorer.
 // (a) at least half of all guide steps backed by 2+ sources;
-// (b) every cited source has a live URL (no URL-null citations), and at least 20 pages;
-// (c) every dispute carries a verdict, and at least 30 disputes;
-// (d) the 5 roadmap stages cover all 55 trophies.
+// (b) every cited source has a live URL (no URL-null citations), at least 30 pages
+//     from at least 25 sites;
+// (c) every dispute carries a verdict, and at least 35 disputes;
+// (d) the 5 roadmap stages cover all 55 trophies;
+// (e) the 100% ledger has exactly 32 rows (the 31 checklist rows plus Bret's
+//     hunting quests, per PowerPyx's intro) totalling at least 1,600 items.
 const sources = Array.isArray(trophyFile.sources) ? trophyFile.sources : [];
 const disputes = Array.isArray(trophyFile.disputes) ? trophyFile.disputes : [];
 const roadmapStages = Array.isArray(trophyFile.roadmap) ? trophyFile.roadmap : [];
@@ -54,8 +57,12 @@ for (const t of trophyList) {
 if (totalSteps === 0 || backedSteps / totalSteps < 0.5) {
   throw new Error(`audit gate: only ${backedSteps}/${totalSteps} steps backed by 2+ sources (need >= 50%)`);
 }
-if (sources.length < 20) {
-  throw new Error(`audit gate: need at least 20 source pages (found ${sources.length})`);
+if (sources.length < 30) {
+  throw new Error(`audit gate: need at least 30 source pages (found ${sources.length})`);
+}
+const siteCount = new Set(sources.map((s) => { try { return new URL(s.url).hostname.replace(/^www\./, ''); } catch { return s.url; } })).size;
+if (siteCount < 25) {
+  throw new Error(`audit gate: need at least 25 sites (found ${siteCount})`);
 }
 const urlLess = sources.filter((s) => !s || typeof s.url !== 'string' || !s.url.trim());
 if (urlLess.length > 0) {
@@ -98,11 +105,14 @@ for (const st of roadmapStages) {
 if (dangling.length > 0) {
   throw new Error(`audit gate: ${dangling.length} dangling references:\n- ${dangling.slice(0, 10).join('\n- ')}`);
 }
-if ((trophyFile.ledger ?? []).length !== 26) {
-  throw new Error(`audit gate: ledger must have 26 rows (found ${(trophyFile.ledger ?? []).length})`);
+if ((trophyFile.ledger ?? []).length !== 32) {
+  throw new Error(`audit gate: ledger must have 32 rows (found ${(trophyFile.ledger ?? []).length})`);
 }
-if (disputes.length < 30) {
-  throw new Error(`audit gate: need at least 30 disputes with verdicts (found ${disputes.length})`);
+if (ledgerTotal < 1600) {
+  throw new Error(`audit gate: ledger must total at least 1,600 items (found ${ledgerTotal})`);
+}
+if (disputes.length < 35) {
+  throw new Error(`audit gate: need at least 35 disputes with verdicts (found ${disputes.length})`);
 }
 
 mkdirSync(out, { recursive: true });
@@ -120,8 +130,7 @@ writeFileSync(
 );
 
 const shots = existsSync(join(out, 'screenshots')) ? readdirSync(join(out, 'screenshots')).length : 0;
-console.log(`Leonida Platinum v3.1 handed in: app/ copied, ${shots} screenshot(s), dossier.json written to ${out}`);
-const siteCount = new Set(sources.map((s) => { try { return new URL(s.url).hostname.replace(/^www\./, ''); } catch { return s.url; } })).size;
+console.log(`Leonida Platinum v3.2 handed in: app/ copied, ${shots} screenshot(s), dossier.json written to ${out}`);
 const claimsTotal = totalSteps + trophyList.length + disputes.length * 2
   + roadmapStages.reduce((a, st) => a + (st.steps ?? []).length, 0)
   + (trophyFile.ledger ?? []).length + (trophyFile.hundoCompare ?? []).length

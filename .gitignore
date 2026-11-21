@@ -8,3 +8,8 @@ coverage/
 .nyc_output/
 .turbo/
 .vercel/
+# v3.2: editor/merge leftovers and local verification artefacts
+*.orig
+*.rej
+*.tmp
+verify-*.log

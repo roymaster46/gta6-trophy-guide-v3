@@ -1,6 +1,8 @@
-/* Leonida Platinum v3 — offline tracker for the 55 GTA 6 trophies.
+/* Leonida Platinum v3.2 — offline tracker for the 55 GTA 6 trophies.
    Loads its own data file only (data/trophies.json). No network, no cookies.
-   Audit strip is computed from the data at load, never hardcoded. */
+   Audit strip is computed from the data at load, never hardcoded.
+   v3.2: 30 sources / 27 sites, 38 disputes with verdicts, 32-row 100% ledger
+   (1,606 items), 463 cited claims — all computed by computeAudit() below. */
 (function () {
   'use strict';
 
@@ -407,7 +409,7 @@
     trophies.forEach(function (t) { t.sources.forEach(function (n) { counts[n] = (counts[n] || 0) + 1; }); });
     var html = sources.map(function (s) {
       var name = s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' : esc(s.name);
-      return '<li><b>[' + s.n + ']</b> ' + name + '<span class="src-claims">' + esc(s.note) + ' · cited by ' +
+      return '<li><b>[' + s.n + ']</b> ' + name + (s.n >= 26 ? ' <span class="src-new">new in v3.2</span>' : '') + '<span class="src-claims">' + esc(s.note) + ' · cited by ' +
         (counts[s.n] || 0) + ' of 55 guides · read 21 Nov 2026</span></li>';
     }).join('');
     document.getElementById('sourceList').innerHTML = html;
@@ -473,7 +475,7 @@
 
   function renderLedger() {
     var total = ledger.reduce(function (a, r) { return a + (r.need || 0); }, 0);
-    var html = '<h3>The checklist — 26 rows</h3><table><thead><tr><th>Item</th><th class="num">Need</th><th class="num">Of</th><th>Trophy target</th><th>Notes</th><th>Sources</th></tr></thead><tbody>';
+    var html = '<h3>The checklist — ' + ledger.length + ' rows</h3><table><thead><tr><th>Item</th><th class="num">Need</th><th class="num">Of</th><th>Trophy target</th><th>Notes</th><th>Sources</th></tr></thead><tbody>';
     ledger.forEach(function (r) {
       var t = r.trophy ? trophyById(r.trophy) : null;
       html += '<tr><td>' + esc(r.item) + '</td><td class="num">' + r.need.toLocaleString() + '</td><td class="num">' +
@@ -481,7 +483,7 @@
         (t ? '<a href="#/tracker/' + slugify(t.name) + '" data-open="' + t.id + '">' + esc(t.name) + '</a>: ' + esc(r.trophyTarget) : esc(r.trophyTarget)) +
         '</td><td>' + esc(r.note) + '</td><td>' + citeSpans(r.sources) + '</td></tr>';
     });
-    html += '<tr class="total-row"><td>Total items (excl. money)</td><td class="num">' + total.toLocaleString() + '</td><td class="num">—</td><td colspan="3">Sum of the “need” column across all 26 rows.</td></tr></tbody></table>';
+    html += '<tr class="total-row"><td>Total items (excl. money)</td><td class="num">' + total.toLocaleString() + '</td><td class="num">—</td><td colspan="3">Sum of the “need” column across all ' + ledger.length + ' rows.</td></tr></tbody></table>';
     html += '<h3>Money lines — dollars, not items</h3><table><thead><tr><th>Line</th><th class="num">Amount</th><th>Trophy</th><th>Notes</th><th>Sources</th></tr></thead><tbody>';
     moneyLines.forEach(function (m) {
       var t = m.trophy ? trophyById(m.trophy) : null;
@@ -507,14 +509,14 @@
     var html = sources.map(function (s) {
       var citing = trophies.filter(function (t) { return t.sources.indexOf(s.n) !== -1; });
       var name = s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' : esc(s.name);
-      return '<div class="source-card"><h3>[' + s.n + '] ' + name + '</h3><p>' + esc(s.note) + '</p>' +
+      return '<div class="source-card"><h3>[' + s.n + '] ' + name + (s.n >= 26 ? ' <span class="src-new">new in v3.2</span>' : '') + '</h3><p>' + esc(s.note) + '</p>' +
         '<p>Cited by <b>' + (counts[s.n] || 0) + ' of 55</b> guides · read 21 Nov 2026</p>' +
         '<p class="trophy-refs">Guides citing it: ' + citing.map(function (t) { return esc(t.name); }).join(', ') + '</p></div>';
     }).join('');
     document.getElementById('sourceMatrix').innerHTML = html;
     var bhtml = '<h3>Blocked or unverified — read, and deliberately NOT cited</h3><ul>' +
       blocked.map(function (b) { return '<li><b>' + esc(b.site) + ':</b> ' + esc(b.reason) + '</li>'; }).join('') +
-      '</ul><p>KeenGamer, Mobalytics, GAMES.GG and Exophase refused a plain scripted fetch (bot check / 403) but were read in full through the text-fetch reader on 21 Nov 2026 — they are cited, with that note.</p>';
+      '</ul><p>KeenGamer, Mobalytics, GAMES.GG, Exophase and TrueAchievements refused a plain scripted fetch (bot check / 403) but were read in full through the text-fetch reader on 21 Nov 2026 — they are cited, with that note.</p>';
     document.getElementById('blockedList').innerHTML = bhtml;
   }
 
@@ -566,7 +568,7 @@
 
   function exportProgress() {
     var blob = new Blob([JSON.stringify({
-      app: 'leonida-platinum', version: 3, earned: state.earned, counts: state.counts,
+      app: 'leonida-platinum', version: 3.2, earned: state.earned, counts: state.counts,
       spoiler: state.spoiler, revealed: state.revealed, exportedAt: new Date().toISOString()
     }, null, 2)], { type: 'application/json' });
     var a = document.createElement('a');
