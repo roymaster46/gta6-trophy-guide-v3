@@ -71,6 +71,8 @@ a { color: var(--accent); }
 .audit-item b { color: var(--accent); }
 .audit-item.bad { background: #fde8e8; border: 1px solid #e5a3a3; border-radius: 4px; padding: 1px 6px; }
 .audit-item.bad b { color: var(--bad); }
+.audit-item.claims { background: #fdf3e3; border: 1px solid #e8c88a; border-radius: 4px; padding: 1px 6px; }
+.audit-note { margin: 2px 0 0; font-size: 11px; color: #8a7a68; }
 
 /* Tabs */
 .tabs { display: flex; gap: 4px; align-items: center; padding: 10px 18px 0; flex-wrap: wrap; }

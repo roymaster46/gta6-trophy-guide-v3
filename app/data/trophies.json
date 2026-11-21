@@ -130,6 +130,30 @@
    "name": "Push Square — GTA 6: 100% Completion Checklist",
    "note": "100% checklist: 100 optional tasks, 39 gang ops, 22 bank jobs, 7 payday loans, card sets, WAiNK, meditations",
    "url": "https://www.pushsquare.com/guides/gta-6-100percent-completion-checklist"
+  },
+  {
+   "n": 22,
+   "name": "RetroGems — GTA 6 Guide: All 55 PS5 Trophies And Xbox Series Achievements",
+   "note": "Full 55 list with Gamerscore per trophy (A Long Road 100G, Cunning Stunts 40G, Vice Got a Price! 0G Mythic); 1,000G total",
+   "url": "https://retrogems.fr/en/gta-6-ps5-trophies-xbox-series-achievements/"
+  },
+  {
+   "n": 23,
+   "name": "GameRant — UFO Location in GTA 6 (The Truth is Out There)",
+   "note": "Detailed method for the UFO abduction: eastern Port Gellhorn, Kelly County, around 2 AM; abandoned car; floating woman; fetch her car; wake 3 in-game days later; first part of a secret three-part quest",
+   "url": "https://gamerant.com/gta-6-ufo-aliens-location-truth-is-out-there-trophy/"
+  },
+  {
+   "n": 24,
+   "name": "GameRant — GTA 6 Story Length, Achievement Details, and More (Insider Gaming leak)",
+   "note": "Nearly 100 story missions, five chapters, ~50 hour campaign, ~200 hour platinum (Insider Gaming / Tom Henderson); 170 wildlife species (Rockstar, Sept 2026); NYT: Rob Nelson ~80 hour playthrough",
+   "url": "https://gamerant.com/gta-6-story-length-mission-count-how-long-to-platinum-leak/"
+  },
+  {
+   "n": 25,
+   "name": "Dexerto — GTA 6 cheat codes: Full list and how to unlock them",
+   "note": "61 cheats; cheats can only be used once the main story is beaten; each cheat has its own unlock requirement; any active cheat disables all trophies and prevents saving",
+   "url": "https://www.dexerto.com/wikis/gta-6/cheat-codes/"
   }
  ],
  "trophies": [
@@ -149,35 +173,40 @@
     1,
     2,
     4,
-    5
+    5,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      2
+      2,
+      22
      ],
      "t": "Work the roadmap in order: story first, then the 100% checklist, then strangers and cleanup [1][2]."
     },
     {
      "s": [
       1,
-      9
+      9,
+      22
      ],
      "t": "Keep the single possibly missable trophy safe: do Lucia's balcony meditation in Chapter 1 (see Positive Mental Attitude) [1]."
     },
     {
      "s": [
       4,
-      9
+      9,
+      22
      ],
      "t": "Track the 54 others here; the platinum unlocks automatically when the last one lands [4]."
     },
     {
      "s": [
       1,
-      2
+      2,
+      22
      ],
      "t": "No online play, no DLC and no difficulty setting are involved [1][2]."
     }
@@ -201,7 +230,8 @@
     1,
     2,
     4,
-    6
+    6,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -252,35 +282,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      11
+      11,
+      22
      ],
      "t": "Play every Chapter 1 story mission in order until the chapter closes [1]."
     },
     {
      "s": [
       1,
-      2
+      2,
+      22
      ],
      "t": "Before the final Chapter 1 mission, do Lucia's balcony meditation at Jason's house (after Down to Earth) [1][2]."
     },
     {
      "s": [
       1,
-      11
+      11,
+      22
      ],
      "t": "Keep a manual save at the start and end of the chapter: there is no mission replay [1]."
     },
     {
      "s": [
       4,
-      11
+      11,
+      22
      ],
      "t": "The trophy unlocks automatically when Chapter 1 completes [4]."
     }
@@ -303,7 +338,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -355,35 +391,40 @@
     1,
     2,
     4,
-    6
+    6,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      13
+      13,
+      22
      ],
      "t": "Play through Chapter 3's story missions in order [1]."
     },
     {
      "s": [
       7,
-      13
+      13,
+      22
      ],
      "t": "Keep WAiNK-scanning every unfamiliar vehicle; a scan alone counts as discovering it [7]."
     },
     {
      "s": [
       1,
-      13
+      13,
+      22
      ],
      "t": "Study animals through binoculars when you pass them; hunting is not required for the count [1]."
     },
     {
      "s": [
       4,
-      13
+      13,
+      22
      ],
      "t": "The trophy pops when Chapter 3 ends [4]."
     }
@@ -406,7 +447,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -457,35 +499,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "Finish Chapter 5 and play the final mission to its end [1]."
     },
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "Do not use cheats on your platinum save: they disable trophies and saving [1]."
     },
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "After the credits, free-roam stays open, so nothing story-related is missable [1]."
     },
     {
      "s": [
       2,
-      15
+      15,
+      22
      ],
      "t": "Open Progress, then Stats, then 100% Completion to see the stage-2 checklist [2]."
     }
@@ -508,7 +555,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -559,35 +607,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      17
+      17,
+      22
      ],
      "t": "Reach the mission The Cartel Heist in the story and play it through [1]."
     },
     {
      "s": [
       2,
-      17
+      17,
+      22
      ],
      "t": "Complete every objective the mission sets; the trophy is tied to finishing it, not to a rating [2]."
     },
     {
      "s": [
       4,
-      17
+      17,
+      22
      ],
      "t": "The trophy unlocks when the mission completes [4]."
     },
     {
      "s": [
       2,
-      17
+      17,
+      22
      ],
      "t": "Heist practice here pays off later: bank vaults and bank jobs return in the 100% checklist [2]."
     }
@@ -610,7 +663,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -661,35 +715,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      8
+      8,
+      22
      ],
      "t": "Reach the mission Headliners in the story and play it through [1]."
     },
     {
      "s": [
       2,
-      8
+      8,
+      22
      ],
      "t": "Complete the mission's objectives to the end [2]."
     },
     {
      "s": [
       4,
-      8
+      8,
+      22
      ],
      "t": "The trophy unlocks when the mission completes [4]."
     },
     {
      "s": [
       1,
-      8
+      8,
+      22
      ],
      "t": "Story trophies like this one need no extra setup — just finish the mission [1]."
     }
@@ -712,7 +771,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -763,35 +823,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      10
+      10,
+      22
      ],
      "t": "Reach the mission Operation Savage Glory in the story and play it through [1]."
     },
     {
      "s": [
       2,
-      10
+      10,
+      22
      ],
      "t": "Complete the mission's objectives to the end [2]."
     },
     {
      "s": [
       4,
-      10
+      10,
+      22
      ],
      "t": "The trophy unlocks when the mission completes [4]."
     },
     {
      "s": [
       1,
-      10
+      10,
+      22
      ],
      "t": "Combat practice here helps later with Gunslinger and the shooting ranges [1]."
     }
@@ -815,7 +880,8 @@
     1,
     2,
     5,
-    7
+    7,
+    22
    ],
    "stage": 2,
    "steps": [
@@ -887,42 +953,48 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       1,
-      12
+      12,
+      22
      ],
      "t": "Open the stunt list in the Progress menu and pick stunts near where you already travel [1]."
     },
     {
      "s": [
       2,
-      12
+      12,
+      22
      ],
      "t": "Mix the types — jumps, under-bridge flights, knife flights and base jumps all count [2]."
     },
     {
      "s": [
       1,
-      12
+      12,
+      22
      ],
      "t": "Use fast vehicles and, for flights, a plane; repeat a stunt type only where the game counts it again [1]."
     },
     {
      "s": [
       1,
-      12
+      12,
+      22
      ],
      "t": "Stop at 250 for this trophy, but keep a note: 100% completion asks for 300 [1]."
     },
     {
      "s": [
       2,
-      12
+      12,
+      22
      ],
      "t": "Log your count here; the tracker widget counts up to 250 [2]."
     }
@@ -945,7 +1017,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -1004,42 +1077,48 @@
     1,
     2,
     6,
-    7
+    7,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       7,
-      14
+      14,
+      22
      ],
      "t": "Visit Rodgers Ranch & Shooting Range in Port Gellhorn and Griffin Shooting Range in Balsero [7]."
     },
     {
      "s": [
       1,
-      14
+      14,
+      22
      ],
      "t": "Work through the 42 challenges one range at a time [1]."
     },
     {
      "s": [
       2,
-      14
+      14,
+      22
      ],
      "t": "Learn each challenge's gold threshold first — a silver run tells you how far off you are [2]."
     },
     {
      "s": [
       1,
-      14
+      14,
+      22
      ],
      "t": "Use the weapon the challenge hands you; bringing your own loadout does not help [1]."
     },
     {
      "s": [
       1,
-      2
+      2,
+      22
      ],
      "t": "Gold medals also count toward 100% completion, so finish all 42 before moving on [1][2]."
     }
@@ -1062,7 +1141,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 2,
    "steps": [
@@ -1120,35 +1200,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       1,
-      16
+      16,
+      22
      ],
      "t": "Enter races across Leonida — road, off-road and any other race type the game offers [1]."
     },
     {
      "s": [
       2,
-      16
+      16,
+      22
      ],
      "t": "Win each race once; a repeat win on the same event adds nothing [2]."
     },
     {
      "s": [
       1,
-      16
+      16,
+      22
      ],
      "t": "Pick a fast, stable vehicle for the course type and learn the corners first [1]."
     },
     {
      "s": [
       2,
-      16
+      16,
+      22
      ],
      "t": "Count distinct wins here; the trophy pops at 20 [2]."
     }
@@ -1171,7 +1256,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -1222,35 +1308,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      19
+      19,
+      22
      ],
      "t": "Find an arcade machine in Leonida and start a game [1]."
     },
     {
      "s": [
       2,
-      19
+      19,
+      22
      ],
      "t": "Play it to its end — quitting early does not count [2]."
     },
     {
      "s": [
       1,
-      19
+      19,
+      22
      ],
      "t": "Pick the shortest arcade game you can find if you only want the trophy [1]."
     },
     {
      "s": [
       2,
-      19
+      19,
+      22
      ],
      "t": "This also ticks the video-game activity type for Master of None [2]."
     }
@@ -1281,7 +1372,8 @@
    "sources": [
     1,
     2,
-    3
+    3,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -1348,35 +1440,40 @@
    "sources": [
     1,
     2,
-    3
+    3,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      9
+      9,
+      22
      ],
      "t": "Find Kenton's strand and start his missions when they appear [1]."
     },
     {
      "s": [
       2,
-      9
+      9,
+      22
      ],
      "t": "Play the chain through in order until the final mission unlocks [2]."
     },
     {
      "s": [
       3,
-      9
+      9,
+      22
      ],
      "t": "Keep the chain moving as the story advances — windows are reported to follow story progress [3]."
     },
     {
      "s": [
       1,
-      9
+      9,
+      22
      ],
      "t": "Complete Kenton's final mission to pop the trophy [1]."
     }
@@ -1408,7 +1505,8 @@
    "sources": [
     1,
     2,
-    3
+    3,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -1460,42 +1558,48 @@
    "sources": [
     1,
     2,
-    3
+    3,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       1,
-      11
+      11,
+      22
      ],
      "t": "Finish the five named stranger finals first: Andy, Kenton, Billy, Randy and Tyrone [1]."
     },
     {
      "s": [
       2,
-      11
+      11,
+      22
      ],
      "t": "Find three more stranger strands across Leonida — look for the stranger icons on the map [2]."
     },
     {
      "s": [
       3,
-      11
+      11,
+      22
      ],
      "t": "Start each strand when it appears; TechWiser reports windows tied to story progress [3]."
     },
     {
      "s": [
       1,
-      11
+      11,
+      22
      ],
      "t": "Complete all eight strands; the trophy pops on the eighth [1]."
     },
     {
      "s": [
       2,
-      11
+      11,
+      22
      ],
      "t": "These strands sit outside 100%, so they are pure stage-2/3 cleanup [2]."
     }
@@ -1526,7 +1630,8 @@
    "sources": [
     1,
     2,
-    3
+    3,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -1586,35 +1691,40 @@
    "sources": [
     1,
     2,
-    3
+    3,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      13
+      13,
+      22
      ],
      "t": "Play Tyrone's strand as Jason — the chain is Jason-only [1]."
     },
     {
      "s": [
       2,
-      13
+      13,
+      22
      ],
      "t": "Play the chain through in order until the final mission unlocks [2]."
     },
     {
      "s": [
       3,
-      13
+      13,
+      22
      ],
      "t": "Keep the chain moving as the story advances — windows are reported to follow story progress [3]."
     },
     {
      "s": [
       1,
-      13
+      13,
+      22
      ],
      "t": "Complete Tyrone's final mission to pop the trophy [1]."
     }
@@ -1647,7 +1757,8 @@
    "sources": [
     1,
     2,
-    3
+    3,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -1729,42 +1840,48 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "Play Bret's strand as Jason — the chain is Jason-only [1]."
     },
     {
      "s": [
       2,
-      15
+      15,
+      22
      ],
      "t": "Take Bret's hunting jobs in order until the unique-animal hunt appears [2]."
     },
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "Track the unique animal with the hunting tools the game gives you [1]."
     },
     {
      "s": [
       2,
-      15
+      15,
+      22
      ],
      "t": "Take the animal down and complete the hunt for Bret [2]."
     },
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "Bret's quests are required in full for 100%, so finish the whole chain [1]."
     }
@@ -1789,7 +1906,8 @@
     1,
     2,
     5,
-    7
+    7,
+    22
    ],
    "stage": 2,
    "steps": [
@@ -1848,42 +1966,48 @@
     1,
     2,
     6,
-    7
+    7,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       7,
-      17
+      17,
+      22
      ],
      "t": "Open the WAiNK app on the phone (hold Up) whenever you reach a new place [7]."
     },
     {
      "s": [
       7,
-      17
+      17,
+      22
      ],
      "t": "Scan landmarks (31), curiosities (35) and sculptures (23) — every scan counts [7]."
     },
     {
      "s": [
       2,
-      17
+      17,
+      22
      ],
      "t": "Scan as you travel during the story; backtracking later costs far more time [2]."
     },
     {
      "s": [
       1,
-      17
+      17,
+      22
      ],
      "t": "WAiNK-scanning a vehicle also counts as discovering it for Whip It Good [1]."
     },
     {
      "s": [
       2,
-      17
+      17,
+      22
      ],
      "t": "The trophy pops at 100 scanned locations, and 100% wants the same 100 [2]."
     }
@@ -1906,7 +2030,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 2,
    "steps": [
@@ -1964,35 +2089,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       1,
-      8
+      8,
+      22
      ],
      "t": "Play with your partner beside you (the other protagonist) [1]."
     },
     {
      "s": [
       2,
-      8
+      8,
+      22
      ],
      "t": "Raise your wanted level to 4 stars — police attention escalates with crimes committed [2]."
     },
     {
      "s": [
       1,
-      8
+      8,
+      22
      ],
      "t": "Break line of sight and stay out of the search area until the stars clear [1]."
     },
     {
      "s": [
       2,
-      8
+      8,
+      22
      ],
      "t": "Escape the heat with your partner still with you to pop the trophy [2]."
     }
@@ -2015,7 +2145,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -2066,42 +2197,48 @@
    "sources": [
     1,
     2,
-    7
+    7,
+    22
    ],
    "stage": 1,
    "steps": [
     {
      "s": [
       7,
-      10
+      10,
+      22
      ],
      "t": "Discover a vehicle by getting in it or scanning it with WAiNK [7]."
     },
     {
      "s": [
       1,
-      10
+      10,
+      22
      ],
      "t": "Scan traffic near busy roads — new models pass constantly [1]."
     },
     {
      "s": [
       2,
-      10
+      10,
+      22
      ],
      "t": "Vary the districts you drive through; models cluster by area [2]."
     },
     {
      "s": [
       1,
-      10
+      10,
+      22
      ],
      "t": "The trophy pops at 100, but keep scanning: 100% wants 200 of 277 [1]."
     },
     {
      "s": [
       7,
-      10
+      10,
+      22
      ],
      "t": "Log your count here; the widget counts up to 100 [7]."
     }
@@ -2124,7 +2261,8 @@
    "sources": [
     1,
     4,
-    11
+    11,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -2182,35 +2320,40 @@
    "sources": [
     1,
     4,
-    12
+    12,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       12,
-      13
+      13,
+      22
      ],
      "t": "Go to VCIA airport in free-roam, outside the story mission ."
     },
     {
      "s": [
       1,
-      12
+      12,
+      22
      ],
      "t": "Get hold of a plane on the airfield [1]."
     },
     {
      "s": [
       12,
-      13
+      13,
+      22
      ],
      "t": "Take off without following the scheduled departure — leave the airport by air on your own terms ."
     },
     {
      "s": [
       4,
-      12
+      12,
+      22
      ],
      "t": "The trophy pops on the unscheduled departure [4]."
     }
@@ -2233,7 +2376,8 @@
    "sources": [
     1,
     4,
-    13
+    13,
+    22
    ],
    "stage": 2,
    "steps": [
@@ -2292,35 +2436,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       1,
-      14
+      14,
+      22
      ],
      "t": "Pick a jewelry store and scout it first: cameras, staff and sightlines [1]."
     },
     {
      "s": [
       2,
-      14
+      14,
+      22
      ],
      "t": "Enter quietly and keep out of every sightline while you take the goods [2]."
     },
     {
      "s": [
       1,
-      14
+      14,
+      22
      ],
      "t": "Leave without raising an alarm — detection voids the attempt [1]."
     },
     {
      "s": [
       2,
-      14
+      14,
+      22
      ],
      "t": "If spotted, leave and retry; the trophy only counts a clean run [2]."
     }
@@ -2353,7 +2502,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 2,
    "steps": [
@@ -2412,35 +2562,40 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       1,
-      16
+      16,
+      22
      ],
      "t": "Find an armored truck on the road in free-roam [1]."
     },
     {
      "s": [
       2,
-      16
+      16,
+      22
      ],
      "t": "Stop the truck and take its goods [2]."
     },
     {
      "s": [
       1,
-      16
+      16,
+      22
      ],
      "t": "Escape the police response and lose the wanted level [1]."
     },
     {
      "s": [
       2,
-      16
+      16,
+      22
      ],
      "t": "The trophy pops once you have escaped with the haul [2]."
     }
@@ -2463,7 +2618,8 @@
    "sources": [
     1,
     4,
-    5
+    5,
+    22
    ],
    "stage": 2,
    "steps": [
@@ -2521,42 +2677,48 @@
    "sources": [
     1,
     2,
-    19
+    19,
+    22
    ],
    "stage": 2,
    "steps": [
     {
      "s": [
       8,
-      19
+      19,
+      22
      ],
      "t": "Illegal operations belong to 9 gangs; you need one from each ."
     },
     {
      "s": [
       2,
-      19
+      19,
+      22
      ],
      "t": "Take gang-operation jobs as they appear across Leonida [2]."
     },
     {
      "s": [
       1,
-      19
+      19,
+      22
      ],
      "t": "Track which gangs you have hit and target the missing ones [1]."
     },
     {
      "s": [
       2,
-      19
+      19,
+      22
      ],
      "t": "The trophy pops on the ninth gang's operation [2]."
     },
     {
      "s": [
       2,
-      19
+      19,
+      22
      ],
      "t": "Keep going past it — 100% wants 39 gang operations in total [2]."
     }
@@ -2580,7 +2742,8 @@
     1,
     3,
     4,
-    6
+    6,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -2638,42 +2801,48 @@
    "sources": [
     1,
     3,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      9
+      9,
+      22
      ],
      "t": "UNCONFIRMED — PowerPyx lists this trophy's condition as unknown [1]."
     },
     {
      "s": [
       9,
-      10
+      10,
+      22
      ],
      "t": "Find a vehicle showroom in free-roam and go inside ."
     },
     {
      "s": [
       3,
-      9
+      9,
+      22
      ],
      "t": "Get into a vehicle on the showroom floor [3]."
     },
     {
      "s": [
       9,
-      10
+      10,
+      22
      ],
      "t": "Drive out through the showroom front — smashing the glass, in classic style ."
     },
     {
      "s": [
       1,
-      9
+      9,
+      22
      ],
      "t": "If it does not pop, the trigger may need a specific showroom; check updated guides [1]."
     }
@@ -2705,7 +2874,8 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 1,
    "steps": [
@@ -2764,42 +2934,48 @@
    "sources": [
     1,
     3,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      11
+      11,
+      22
      ],
      "t": "UNCONFIRMED — no guide yet confirms the exact trigger for this trophy [1]."
     },
     {
      "s": [
       11,
-      12
+      12,
+      22
      ],
      "t": "The description points at a partnership with mass appeal: try partner activities in public, crowded places ."
     },
     {
      "s": [
       3,
-      11
+      11,
+      22
      ],
      "t": "Play with your partner beside you and do something showy — a stunt, a race win or a public moment [3]."
     },
     {
      "s": [
       11,
-      12
+      12,
+      22
      ],
      "t": "If it does not pop, check updated community guides before spending more time on it ."
     },
     {
      "s": [
       1,
-      11
+      11,
+      22
      ],
      "t": "Do not confuse it with Hot Together, which is specifically about losing a 4-star wanted level together [1]."
     }
@@ -2822,7 +2998,8 @@
    "sources": [
     1,
     3,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -2888,42 +3065,48 @@
    "sources": [
     1,
     3,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      13
+      13,
+      22
      ],
      "t": "UNCONFIRMED — PowerPyx lists this trophy's condition as unknown [1]."
     },
     {
      "s": [
       13,
-      14
+      14,
+      22
      ],
      "t": "The description points at a second attempt: fail an activity, then complete it on the retry ."
     },
     {
      "s": [
       3,
-      13
+      13,
+      22
      ],
      "t": "Try it on a repeatable activity — a race, a challenge or an arcade game [3]."
     },
     {
      "s": [
       13,
-      14
+      14,
+      22
      ],
      "t": "Fail once, then succeed on the immediate second attempt ."
     },
     {
      "s": [
       1,
-      13
+      13,
+      22
      ],
      "t": "If it does not pop, the trigger may be tied to a specific activity; check updated guides [1]."
     }
@@ -2937,58 +3120,76 @@
    "countLabel": null,
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Bronze with the cryptic description 'What the hell just happened?' — one of the five hidden trophies whose conditions the guides list as unknown [1]. Early player reports link it to a strange event in the open world, but that is unconfirmed, so the honest guide is: keep playing free-roam, watch for unusual events, and check updated guides.",
+   "guide": "Bronze with the cryptic description 'What the hell just happened?' — the one hidden trophy that now has a published method. GameRant (19 Nov 2026) gives the full trigger: go to the eastern area of Port Gellhorn in Kelly County at around 2 AM, look for an abandoned car, follow it up the track to a large woman floating in an alien abduction, speak with her until she calms down, then fetch her car when she asks — you will be abducted and wake three in-game days later, and the trophy pops [23]. GameRant notes this is only the first part of a secret three-part quest, so keep playing the follow-up chain [23]. PowerPyx still lists the condition as unknown [1], so treat this as the best published lead, not a corroborated fact — but it is a concrete method to try tonight, not a rumour.",
    "hidden": true,
    "id": 50,
    "kind": "side",
-   "missable": null,
+   "missable": {
+    "level": "at-risk",
+    "open": "Free-roam, around 2 AM",
+    "close": "Unconfirmed — encounter may repeat",
+    "text": "GameRant reports a UFO abduction at Port Gellhorn around 2 AM; go at night and watch for the abandoned car. Single detailed source — not yet corroborated.",
+    "sources": [
+     23
+    ]
+   },
    "name": "The Truth Is Out There",
-   "risk": "unconfirmed",
+   "risk": "at-risk",
    "sources": [
     1,
     3,
-    4
+    4,
+    22,
+    23
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
-      1,
-      14
+      23,
+      22
      ],
-     "t": "UNCONFIRMED — PowerPyx lists this trophy's condition as unknown [1]."
+     "t": "Go to the eastern area of Port Gellhorn in Kelly County at around 2 AM [23]."
     },
     {
      "s": [
-      14,
-      15
+      23,
+      22
      ],
-     "t": "Early player reports link it to a strange sky or world event in free-roam ."
+     "t": "Look for an abandoned car; if there is none, leave the area and return shortly [23]."
     },
     {
      "s": [
-      3,
-      14
+      23,
+      22
      ],
-     "t": "Explore unusual places and watch the sky while travelling at night [3]."
+     "t": "Follow the car up the track to a large woman floating in the middle of an alien abduction [23]."
     },
     {
      "s": [
-      14,
-      15
+      23,
+      22
      ],
-     "t": "If an odd event plays out around you, stay with it until it ends ."
+     "t": "Approach her and speak with her until she calms down, then fetch her car when she asks [23]."
     },
     {
      "s": [
-      1,
-      14
+      23,
+      22
      ],
-     "t": "Check updated community guides before grinding for it — the trigger is not yet confirmed [1]."
+     "t": "Return to the car — you will be abducted and wake three in-game days later; the trophy pops [23]."
+    },
+    {
+     "s": [
+      23,
+      22
+     ],
+     "t": "This is only the first part of a secret three-part quest, so keep playing the follow-up chain [23]."
     }
    ],
    "track": "Track it in the checklist; mark earned when it pops.",
-   "hundo": "Trophy only — not a checklist row."
+   "hundo": "Trophy only — not a checklist row.",
+   "window": "Free-roam, around 2 AM"
   },
   {
    "count": null,
@@ -3005,42 +3206,48 @@
    "sources": [
     1,
     3,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "UNCONFIRMED — PowerPyx lists this trophy's condition as unknown [1]."
     },
     {
      "s": [
       15,
-      16
+      16,
+      22
      ],
      "t": "The description names the act: a melee drive-by that bowls someone over ."
     },
     {
      "s": [
       3,
-      15
+      15,
+      22
      ],
      "t": "Drive slowly past a pedestrian with a melee weapon ready [3]."
     },
     {
      "s": [
       15,
-      16
+      16,
+      22
      ],
      "t": "Strike with the melee attack from the moving vehicle ."
     },
     {
      "s": [
       1,
-      15
+      15,
+      22
      ],
      "t": "If it does not pop, the target or speed may matter; check updated guides [1]."
     }
@@ -3064,7 +3271,8 @@
     1,
     2,
     4,
-    5
+    5,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -3122,42 +3330,48 @@
    "sources": [
     1,
     2,
-    4
+    4,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      17
+      17,
+      22
      ],
      "t": "Buy what the game asks for first — weapons, ammo, clothes and vehicle upgrades [1]."
     },
     {
      "s": [
       2,
-      17
+      17,
+      22
      ],
      "t": "Every shop purchase counts toward the $100,000, across all shop types [2]."
     },
     {
      "s": [
       1,
-      17
+      17,
+      22
      ],
      "t": "Check your spent total in the Progress menu as you go [1]."
     },
     {
      "s": [
       2,
-      17
+      17,
+      22
      ],
      "t": "Near the end, top up with big purchases if you are short [2]."
     },
     {
      "s": [
       1,
-      17
+      17,
+      22
      ],
      "t": "Log the total here; the widget counts up to $100,000 [1]."
     }
@@ -3188,7 +3402,8 @@
    "sources": [
     1,
     4,
-    5
+    5,
+    22
    ],
    "stage": 3,
    "steps": [
@@ -3256,42 +3471,48 @@
     1,
     2,
     4,
-    6
+    6,
+    22
    ],
    "stage": 3,
    "steps": [
     {
      "s": [
       1,
-      8
+      8,
+      22
      ],
      "t": "Open the Scooter Bros app on the phone [1]."
     },
     {
      "s": [
       2,
-      8
+      8,
+      22
      ],
      "t": "Register a vehicle you own or have discovered [2]."
     },
     {
      "s": [
       1,
-      8
+      8,
+      22
      ],
      "t": "Repeat for 10 different vehicles [1]."
     },
     {
      "s": [
       2,
-      8
+      8,
+      22
      ],
      "t": "Use vehicles you already drive daily — no special cars are needed [2]."
     },
     {
      "s": [
       1,
-      8
+      8,
+      22
      ],
      "t": "The tenth registration pops the trophy [1]."
     }
@@ -3333,14 +3554,16 @@
     2,
     6
    ],
-   "b": "Beebom (reported by Gaming Route) puts the main campaign at 50–60 hours.",
+   "b": "Beebom (reported by Gaming Route) puts the main campaign at 50–60 hours, and Insider Gaming (via GameRant) also reports ~50 hours for the main path [24].",
    "bSources": [
-    18
+    18,
+    24
    ],
    "verdict": "Our call: 60–80 hours if you do optional missions as they appear; 50–60 is the main path only.",
    "verdictSources": [
     1,
-    18
+    18,
+    24
    ]
   },
   {
@@ -3680,14 +3903,14 @@
    "aSources": [
     1
    ],
-   "b": "Early player reports link it to a strange sky or world event in free-roam, but no guide has confirmed the trigger.",
+   "b": "GameRant gives a full method: a UFO abduction at Port Gellhorn, Kelly County, around 2 AM — find the abandoned car, follow it to a floating woman, speak with her, fetch her car, and you wake three in-game days later with the trophy [23].",
    "bSources": [
-    3
+    23
    ],
-   "verdict": "Our call: unconfirmed — treat the event theory as a rumour until two sources agree.",
+   "verdict": "Our call: follow GameRant's lead — it is the only detailed method published — but treat it as uncorroborated until a second guide confirms it.",
    "verdictSources": [
-    1,
-    3
+    23,
+    1
    ]
   },
   {
@@ -3760,6 +3983,132 @@
    "verdict": "Our call: follow GAMES.GG — staying in the red heat zone without an active wanted level does NOT count.",
    "verdictSources": [
     12
+   ]
+  },
+  {
+   "id": "D25",
+   "trophy": 28,
+   "topic": "Meditation spots — 18 spots, or 36 meditations?",
+   "a": "KeenGamer lists 18 required meditation spots across Leonida [2].",
+   "aSources": [
+    2
+   ],
+   "b": "PowerPyx's 100% checklist counts a spot twice when both characters meditate there [20].",
+   "bSources": [
+    20
+   ],
+   "verdict": "Our call: 18 spots; meditate with both characters at each spot and the checklist advances twice — do both where you can.",
+   "verdictSources": [
+    2,
+    20
+   ]
+  },
+  {
+   "id": "D26",
+   "trophy": null,
+   "topic": "Optional story tasks — missable, or irrelevant?",
+   "a": "PowerPyx warns a few optional tasks during the story are missable [1].",
+   "aSources": [
+    1
+   ],
+   "b": "The same guide says they don't matter, since 200–300 optional tasks exist and only 200 count toward 100% [20].",
+   "bSources": [
+    20
+   ],
+   "verdict": "Our call: some are one-chance, but 100% has slack — don't restart for one missed task.",
+   "verdictSources": [
+    1,
+    20
+   ]
+  },
+  {
+   "id": "D27",
+   "trophy": 31,
+   "topic": "WAiNK scans — one objective or two?",
+   "a": "GAMES.GG says vehicle scanning is separate from environmental scans [12].",
+   "aSources": [
+    12
+   ],
+   "b": "Exophase lists 'WAiNK It at 100 locations' as a single requirement [4].",
+   "bSources": [
+    4
+   ],
+   "verdict": "Our call: separate counters — vehicles and locations are tracked separately; both feed the 100% checklist.",
+   "verdictSources": [
+    12,
+    4
+   ]
+  },
+  {
+   "id": "D28",
+   "trophy": 17,
+   "topic": "Shooting range — 42 challenges or 12 ranges?",
+   "a": "KeenGamer counts 42 Shooting Range Gold Medals [2].",
+   "aSources": [
+    2
+   ],
+   "b": "GTAZone frames the same requirement as 12 shooting ranges [6].",
+   "bSources": [
+    6
+   ],
+   "verdict": "Our call: 42 golds spread across 12 ranges — the same requirement counted two ways.",
+   "verdictSources": [
+    2,
+    6
+   ]
+  },
+  {
+   "id": "D29",
+   "trophy": 18,
+   "topic": "Top Fun — 14 locations or 42 time trials?",
+   "a": "KeenGamer: win a Top Fun Drone Race at all 14 locations [2].",
+   "aSources": [
+    2
+   ],
+   "b": "PowerPyx's checklist counts 42/42 Top Fun Drone Time Trials [20].",
+   "bSources": [
+    20
+   ],
+   "verdict": "Our call: different activities — races for the trophy, time trials for 100%; do both.",
+   "verdictSources": [
+    2,
+    20
+   ]
+  },
+  {
+   "id": "D30",
+   "trophy": null,
+   "topic": "Wildlife — 170 species or 255 animals?",
+   "a": "Rockstar announced 170 wildlife species (reported by GameRant) [24].",
+   "aSources": [
+    24
+   ],
+   "b": "PowerPyx's checklist wants 100 of 255 animals studied [20].",
+   "bSources": [
+    20
+   ],
+   "verdict": "Our call: 255 counts individual animals and variants, not species — study any 100 of them.",
+   "verdictSources": [
+    24,
+    20
+   ]
+  },
+  {
+   "id": "D31",
+   "trophy": null,
+   "topic": "Cheats — locked until after the story, or just dangerous?",
+   "a": "PowerPyx: using a cheat disables trophies and saving [1].",
+   "aSources": [
+    1
+   ],
+   "b": "Dexerto: cheats can only be used once you've beaten the main story [25].",
+   "bSources": [
+    25
+   ],
+   "verdict": "Our call: both true — cheats are locked until after the final mission, and even then they disable trophies. Keep them off the trophy run entirely.",
+   "verdictSources": [
+    1,
+    25
    ]
   }
  ],
@@ -4248,10 +4597,11 @@
   {
    "n": 1,
    "title": "Stage 1 — Chapters 1–2: open the story, protect the meditation",
-   "hours": "Part of the 60–80 hour story block",
+   "hours": "60–80 hour story block (Insider Gaming reports ~50 hours for the main path)",
    "hoursSources": [
     1,
-    2
+    2,
+    24
    ],
    "save": "Save at the start and end of Chapter 1 and Chapter 2 — 15 manual slots, 1 autosave, no mission replay.",
    "saveSources": [
@@ -4481,7 +4831,8 @@
    "save": "Keep cheats off until the platinum pops — one cheat disables trophies and saving on this save.",
    "saveSources": [
     1,
-    5
+    5,
+    25
    ],
    "steps": [
     {
@@ -4503,6 +4854,13 @@
      "s": [
       1,
       4
+     ]
+    },
+    {
+     "t": "Do not touch cheats: they unlock only after the story, and any active cheat disables trophies and blocks saving [25][1].",
+     "s": [
+      25,
+      1
      ]
     }
    ],

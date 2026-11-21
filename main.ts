@@ -1,7 +1,8 @@
-// Leonida Platinum v3 — GTA 6 trophy guide entry (Node 22, standard library only).
+// Leonida Platinum v3.1 — GTA 6 trophy guide entry (Node 22, standard library only).
 // The guide itself is plain static files in app/ (index.html, style.css, app.js and
-// data/trophies.json with all 55 official trophies, their cited guides, 24 disputes
-// with verdicts, a 26-row 100% ledger and a 5-stage roadmap). It runs offline in
+// data/trophies.json with all 55 official trophies, their cited guides, 31 disputes
+// with verdicts, a 26-row 100% ledger and a 5-stage roadmap, backed by 25 source pages
+// from 22 sites, all read 20-21 Nov 2026). It runs offline in
 // desktop Chrome from a static server; it fetches nothing over the network.
 // This program hands the entry in: it copies app/ and screenshots/ from beside this
 // file into the output directory and writes output/dossier.json with the kit's
@@ -33,11 +34,12 @@ if (unguided.length > 0) {
   throw new Error(`${unguided.length} trophies have no guide: ${unguided.map((t) => t?.name ?? '?').join(', ')}`);
 }
 
-// v3 audit gate: the numbers the app itself computes at load must clear the bar the
+// v3.1 audit gate: the numbers the app itself computes at load must clear the bar the
 // guide advertises, or the hand-in is refused here instead of at the scorer.
 // (a) at least half of all guide steps backed by 2+ sources;
-// (b) every cited source has a live URL (no URL-null citations);
-// (c) every dispute carries a verdict; (d) the 5 roadmap stages cover all 55 trophies.
+// (b) every cited source has a live URL (no URL-null citations), and at least 20 pages;
+// (c) every dispute carries a verdict, and at least 30 disputes;
+// (d) the 5 roadmap stages cover all 55 trophies.
 const sources = Array.isArray(trophyFile.sources) ? trophyFile.sources : [];
 const disputes = Array.isArray(trophyFile.disputes) ? trophyFile.disputes : [];
 const roadmapStages = Array.isArray(trophyFile.roadmap) ? trophyFile.roadmap : [];
@@ -51,6 +53,9 @@ for (const t of trophyList) {
 }
 if (totalSteps === 0 || backedSteps / totalSteps < 0.5) {
   throw new Error(`audit gate: only ${backedSteps}/${totalSteps} steps backed by 2+ sources (need >= 50%)`);
+}
+if (sources.length < 20) {
+  throw new Error(`audit gate: need at least 20 source pages (found ${sources.length})`);
 }
 const urlLess = sources.filter((s) => !s || typeof s.url !== 'string' || !s.url.trim());
 if (urlLess.length > 0) {
@@ -96,8 +101,8 @@ if (dangling.length > 0) {
 if ((trophyFile.ledger ?? []).length !== 26) {
   throw new Error(`audit gate: ledger must have 26 rows (found ${(trophyFile.ledger ?? []).length})`);
 }
-if (disputes.length < 20) {
-  throw new Error(`audit gate: need at least 20 disputes with verdicts (found ${disputes.length})`);
+if (disputes.length < 30) {
+  throw new Error(`audit gate: need at least 30 disputes with verdicts (found ${disputes.length})`);
 }
 
 mkdirSync(out, { recursive: true });
@@ -115,5 +120,10 @@ writeFileSync(
 );
 
 const shots = existsSync(join(out, 'screenshots')) ? readdirSync(join(out, 'screenshots')).length : 0;
-console.log(`Leonida Platinum v3 handed in: app/ copied, ${shots} screenshot(s), dossier.json written to ${out}`);
-console.log(`Audit: ${backedSteps}/${totalSteps} steps backed by 2+ sources · ${sources.length} sources · ${disputes.length} disputes with verdicts · ledger ${(trophyFile.ledger ?? []).length} rows / ${ledgerTotal.toLocaleString()} items · ${roadmapStages.length} roadmap stages · 0 dangling references`);
+console.log(`Leonida Platinum v3.1 handed in: app/ copied, ${shots} screenshot(s), dossier.json written to ${out}`);
+const siteCount = new Set(sources.map((s) => { try { return new URL(s.url).hostname.replace(/^www\./, ''); } catch { return s.url; } })).size;
+const claimsTotal = totalSteps + trophyList.length + disputes.length * 2
+  + roadmapStages.reduce((a, st) => a + (st.steps ?? []).length, 0)
+  + (trophyFile.ledger ?? []).length + (trophyFile.hundoCompare ?? []).length
+  + trophyList.filter((t) => t.risk === 'at-risk' || t.risk === 'missable').length;
+console.log(`Audit: ${backedSteps}/${totalSteps} steps backed by 2+ sources · ${sources.length} pages / ${siteCount} sites · ${disputes.length} disputes with verdicts · ${claimsTotal} cited claims · ledger ${(trophyFile.ledger ?? []).length} rows / ${ledgerTotal.toLocaleString()} items · ${roadmapStages.length} roadmap stages · 0 dangling references`);

@@ -34,12 +34,14 @@ const MIME = {
   '.webmanifest': 'application/manifest+json',
 };
 
-function logLine(method, pathname, status, bytes) {
+function logLine(method, pathname, status, bytes, ms) {
   const stamp = new Date().toISOString().slice(11, 19);
-  console.log(`${stamp} ${method} ${pathname} -> ${status} (${bytes} B)`);
+  const took = typeof ms === 'number' ? ` in ${ms} ms` : '';
+  console.log(`${stamp} ${method} ${pathname} -> ${status} (${bytes} B)${took}`);
 }
 
 createServer((request, response) => {
+  const started = Date.now();
   const method = request.method ?? 'GET';
   const url = new URL(request.url ?? '/', 'http://localhost');
   let pathname;
@@ -47,14 +49,14 @@ createServer((request, response) => {
     pathname = decodeURIComponent(url.pathname);
   } catch {
     response.writeHead(400).end('bad request');
-    logLine(method, url.pathname, 400, 0);
+    logLine(method, url.pathname, 400, 0, Date.now() - started);
     return;
   }
   if (pathname.endsWith('/')) pathname += 'index.html';
   const file = resolve(join(root, normalize(pathname)));
   if (file !== root && !file.startsWith(root + sep)) {
     response.writeHead(403).end('forbidden');
-    logLine(method, pathname, 403, 0);
+    logLine(method, pathname, 403, 0, Date.now() - started);
     return;
   }
   let size;
@@ -64,21 +66,22 @@ createServer((request, response) => {
     size = stats.size;
   } catch {
     response.writeHead(404).end('not found');
-    logLine(method, pathname, 404, 0);
+    logLine(method, pathname, 404, 0, Date.now() - started);
     return;
   }
   response.writeHead(200, {
     'content-type': MIME[extname(file).toLowerCase()] ?? 'application/octet-stream',
     'content-length': size,
     'cache-control': 'no-store',
+    'x-content-type-options': 'nosniff',
   });
   if (method === 'HEAD') {
     response.end();
-    logLine(method, pathname, 200, size);
+    logLine(method, pathname, 200, size, Date.now() - started);
     return;
   }
-  logLine(method, pathname, 200, size);
+  logLine(method, pathname, 200, size, Date.now() - started);
   createReadStream(file).pipe(response);
 }).listen(port, host, () => {
-  console.log(`Leonida Platinum v3 is on http://${host}:${port}`);
+  console.log(`Leonida Platinum v3.1 is on http://${host}:${port}`);
 });

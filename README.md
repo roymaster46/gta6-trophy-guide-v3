@@ -6,16 +6,17 @@
 
 An offline guide and tracker for all **55 Grand Theft Auto VI trophies** on PlayStation 5 — built for the [gta6-trophy-guide-01 bounty](https://make.fun/bounty/gta6-trophy-guide-01) ($250, 50 paid places). Every trophy shows its official name, description and grade, with a guide in our own words whose every step cites a numbered source. No Rockstar logo or artwork is used.
 
-This is **v3**: an evolution of the v2 guide (rank 48, judge 945.824 at 21 Nov 2026 11:53 WIB), rebuilt around the evidence. The v2 audit bar was hardcoded text and only 10 of 253 steps had 2+ sources. v3 computes its audit from the data at load.
+This is **v3.1**: an evolution of the v2 guide (rank 48, judge 945.824 at 21 Nov 2026 11:53 WIB), rebuilt around the evidence. The v2 audit bar was hardcoded text and only 10 of 253 steps had 2+ sources. v3 computes its audit from the data at load. v3.1 pushes further: 25 source pages, 31 disputes with verdicts, a published method for The Truth Is Out There (GameRant's UFO abduction guide), and a computed total of 443 cited claims.
 
 ## Verified audit (computed from `app/data/trophies.json` at load)
 
 - **55/55** official name, description & grade; 1P 2G 6S 46B; 28 PSN-hidden; 0 online
-- **253/253 steps backed by 2+ sources** (v2: 10/253) — every step cites at least two pages that list that trophy and its unlock condition
+- **254/254 steps backed by 2+ sources** (v2: 10/253) — every step cites at least two pages that list that trophy and its unlock condition; 125 steps carry a third source
+- **443 cited claims** (steps, guides, both sides of every dispute, roadmap steps, ledger rows, trophy-vs-100% rows, risk windows) — computed at load, never typed
 - **55/55 guides cited**; 55/55 trophies backed by 3+ sources
-- **21 pages from 19 sites**, all with live URLs, read 20–21 Nov 2026 — including PowerPyx, KeenGamer, eGamers, Exophase, GTA-Base, GTAZone, Push Square, GTA BOOM, Insider Gaming, Mobalytics, GamesFuze, GAMES.GG, Radio Times, GTAScoop, GTAVibes, Vice City Hustle, GTA Vice City Hub, Gaming Route and PlanetGTA6, plus the PowerPyx and Push Square 100% checklists
-- **24 disputes, all with an "Our call" verdict** (v2: 5, no verdicts) — platinum hours, stunts 250 vs 300, which stranger strands count, the grade split, the Ten Pin method, and more
-- **1 possibly missable · 12 at risk · 6 unconfirmed**, with a 6-chapter window chart, last-chance and protect notes per trophy
+- **25 pages from 22 sites**, all with live URLs, read 20–21 Nov 2026 — including PowerPyx, KeenGamer, eGamers, Exophase, GTA-Base, GTAZone, Push Square, GTA BOOM, Insider Gaming, Mobalytics, GamesFuze, GAMES.GG, Radio Times, GTAScoop, GTAVibes, Vice City Hustle, GTA Vice City Hub, Gaming Route, PlanetGTA6, RetroGems, GameRant and Dexerto, plus the PowerPyx and Push Square 100% checklists
+- **31 disputes, all with an "Our call" verdict** (v2: 5, no verdicts) — platinum hours, stunts 250 vs 300, which stranger strands count, the grade split, the Ten Pin method, the UFO abduction method, cheats locked until after the story, and more
+- **1 possibly missable · 13 at risk · 5 unconfirmed**, with a 6-chapter window chart, last-chance and protect notes per trophy
 - **100% Ledger: 26 rows, 1,460 items**, plus 4 money lines ($650,000) and a 12-row trophy-vs-100% table
 - **5-stage roadmap** with cited steps and save advice per stage (v2: 3 stages, hardcoded hours)
 
@@ -24,10 +25,10 @@ This is **v3**: an evolution of the v2 guide (rank 48, judge 945.824 at 21 Nov 2
 - **Tracker** — dense 3-column view: trophy checklist (left), selected-trophy guide (centre), sources + next-up sidebar (right). Progress saves in the browser (localStorage), with Export / Import and a Reset.
 - **Audit bar** — computed from the data at load; a red pill means a check failed. No hardcoded claims.
 - **Roadmap** — 5 stages to the platinum (~200 hours, difficulty 4/10 per PowerPyx; Push Square reports 300+ — see dispute D1): Chapters 1–2, Chapters 3–5, free-roam 100% checklist, strangers & misc cleanup, money/property/platinum. Save advice per stage.
-- **Missables** — a window chart across 6 chapters plus per-trophy windows: the one possibly missable trophy (Positive Mental Attitude: meditate at the Chapter 1 balcony before the chapter ends), 12 chapter-gated at-risk trophies, 6 hidden trophies still unconfirmed.
-- **Disputes** — its own tab: 24 disagreements between sources, each with version A, version B, and our verdict.
+- **Missables** — a window chart across 6 chapters plus per-trophy windows: the one possibly missable trophy (Positive Mental Attitude: meditate at the Chapter 1 balcony before the chapter ends), 13 chapter-gated at-risk trophies (including The Truth Is Out There, whose UFO abduction method GameRant published on 19 Nov), 5 hidden trophies still unconfirmed.
+- **Disputes** — its own tab: 31 disagreements between sources, each with version A, version B, and our verdict.
 - **100% Ledger** — every row of the in-game 100% checklist with the trophy target beside it, money lines separated, and a trophy-vs-100% comparison.
-- **Sources** — a source matrix: each of the 21 sources with what it covers, how many of the 55 guides cite it, and when it was read — plus the sites that could not be read and are deliberately never cited.
+- **Sources** — a source matrix: each of the 25 sources with what it covers, how many of the 55 guides cite it, and when it was read — plus the sites that could not be read and are deliberately never cited.
 - **Spoiler shield** — ON by default; story trophies stay hidden until earned, with a per-trophy "Reveal this guide only" button that leaves the shield on.
 - **Filters & sort** — All 55, Story, Missable, Collectibles, Activities, Online (0 — every trophy is single-player), PSN-hidden, Disputed, Not earned, plus grade chips (P/G/S/B), sort by roadmap / PSN points / grade / name, and search across name, description, guide and steps.
 - **Deep links & shareable progress** — every trophy has a permalink (`#/tracker/<slug>`); "Share progress" copies a link carrying earned trophies and counts (`#earned=…&counts=…`).

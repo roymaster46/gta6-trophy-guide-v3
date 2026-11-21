@@ -3,5 +3,8 @@ node_modules/
 .DS_Store
 *.log
 *.local
+*.tsbuildinfo
 coverage/
 .nyc_output/
+.turbo/
+.vercel/

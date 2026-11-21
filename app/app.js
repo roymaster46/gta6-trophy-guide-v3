@@ -96,9 +96,16 @@
     var disputesNoVerdict = disputes.filter(function (d) { return !d.verdict; }).length;
     var risk = { missable: 0, 'at-risk': 0, unconfirmed: 0, safe: 0 };
     trophies.forEach(function (t) { risk[t.risk] = (risk[t.risk] || 0) + 1; });
+    // Total cited claims: every checkable fact the guide asserts — guide steps,
+    // trophy guides, both sides of every dispute, roadmap steps, ledger rows,
+    // trophy-vs-100% rows, and per-trophy risk windows. Computed, never typed.
+    var roadmapSteps = 0;
+    roadmap.forEach(function (st) { roadmapSteps += (st.steps || []).length; });
+    var windows = trophies.filter(function (t) { return t.risk === 'at-risk' || t.risk === 'missable'; }).length;
+    var claims = totalSteps + trophies.length + disputes.length * 2 + roadmapSteps + ledger.length + hundoCompare.length + windows;
     audit = {
       official: official, total: trophies.length, guidesCited: guidesCited,
-      steps: totalSteps, steps2: steps2, steps1: steps1,
+      steps: totalSteps, steps2: steps2, steps1: steps1, claims: claims,
       pages: sources.length, sites: Object.keys(hosts).length, noUrl: noUrl,
       disputes: disputes.length, disputesNoVerdict: disputesNoVerdict,
       missable: risk.missable || 0, atRisk: risk['at-risk'] || 0, unconfirmed: risk.unconfirmed || 0,
@@ -121,6 +128,7 @@
       { html: '<b>28</b> PSN-hidden', bad: false },
       { html: '<b>' + a.guidesCited + '/' + a.total + '</b> guides cited', bad: a.guidesCited !== a.total },
       { html: '<b>' + a.steps2 + '/' + a.steps + '</b> steps backed by 2+ sources' + (a.steps1 ? ' · ' + a.steps1 + ' single source' : ''), bad: !a.checks.steps2ok },
+      { html: '<b>' + a.claims.toLocaleString() + '</b> cited claims — steps, guides, disputes, roadmap, ledger, windows', bad: false, cls: ' claims' },
       { html: '<b>' + a.pages + '</b> pages · <b>' + a.sites + '</b> sites', bad: a.pages < 20 },
       { html: '<b>' + a.disputes + '</b> disputes, all with verdicts', bad: !a.checks.verdictsOk },
       { html: '<b>' + a.missable + '</b> possibly missable · <b>' + a.atRisk + '</b> at risk · <b>' + a.unconfirmed + '</b> unconfirmed', bad: false },
@@ -128,7 +136,7 @@
       { html: '<b>0</b> online trophies — all single-player', bad: false }
     ];
     document.getElementById('auditBar').innerHTML = items.map(function (it) {
-      return '<span class="audit-item' + (it.bad ? ' bad' : '') + '">' + it.html + '</span>';
+      return '<span class="audit-item' + (it.bad ? ' bad' : '') + (it.cls || '') + '">' + it.html + '</span>';
     }).join('');
   }
 
